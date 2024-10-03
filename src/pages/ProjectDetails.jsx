@@ -36,10 +36,18 @@ const ProjectDetails = () => {
   return (
     <div className="project-details-container">
       <ProjectDetailsHeader title={project.project}/>
-      <img className="project-main-img" src={project.cover_art} alt={project.project} />
-      <p>{project.description}</p>
-      <a href={project.site_link} target="_blank" rel="noopener noreferrer">Visit Site</a>
-      <div>
+      <div className="project-details-main-img-desription">
+        <img className="project-main-img" src={project.cover_art} alt={project.project} />
+        <div className="project-descrpition">
+          <h2>Project Details //</h2><br/>
+          <h3>{project.about}</h3><br/>
+          <p>{project.description}</p><br/>
+          <p className="role-tools">Role: {project.role}</p>
+          <p className="role-tools">Tools: {project.tools}</p><br/>
+          <a href={project.site_link} target="_blank" rel="noopener noreferrer">Visit Site</a>
+        </div>
+      </div>
+      <div className="mockup-container">
         {project.mockups.map((mockup, index) => (
           <img key={index} src={mockup} alt={`Mockup ${index + 1}`} />
         ))}

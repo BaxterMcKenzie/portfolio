@@ -2,14 +2,16 @@
     {
       "id": "my-favourite-albums",
       "project": "My Favourite Albums",
-      "tools": "JavaScript, HTML, CSS",
       "cover_art": "/img/my_favourite_albums.webp",
-      "description": "A personal project showcasing my favorite albums using HTML, CSS, and JavaScript.",
+      "description": "This project showcases a collection of my favorite albums and artists using a responsive grid-based design. The album data is dynamically loaded from a JSON file, allowing for easy updates and scalability. Users can explore key album details, such as artist names, release years, genres, and album art, presented in an interactive card layout. One of the project's key features is the use of Axios to fetch data from the local JSON file, ensuring the content is dynamic without requiring a full backend. The cards are styled using CSS Grid for responsive layouts, and subtle hover animations bring the design to life. This project highlights my skills in front-end development, working with external data, and responsive design.",
+      "about": "Yoobee WEB UI/UX 2024",
+      "role": "Developer and Designer",
+      "tools":"React, Axios, CSS Grid",
       "site_link": "https://my-favourite-albums.vercel.app/",
       "mockups": [
-        "/img/mockup1.webp",
-        "/img/mockup2.webp",
-        "/img/mockup3.webp"
+        "/img/album-desktop.webp",
+        "/img/album-tablet.webp",
+        "/img/album-phone.webp"
       ]
     },
     {

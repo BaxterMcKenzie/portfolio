@@ -14,7 +14,9 @@ const Header = () => {
 
   return (
     <div className='header'>
-      <img className='b-logo' src="/home-img/b.svg" alt="B logo" />
+      <a href="/">
+       <img className="b-logo" src="/home-img/b.svg" alt="B logo" />
+      </a>
       <div className='nav-links'>
         <NavLink to="/" activeclassname="active">Home</NavLink>
         <NavLink to="/web" activeclassname="active">Web</NavLink>

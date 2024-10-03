@@ -1,7 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 
-const ProjectDetailsHeader = ({title, image_url}) => {
+const ProjectDetailsHeader = ({title}) => {
     const navigate = useNavigate();
 
   return (
