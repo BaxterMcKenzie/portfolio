@@ -42,8 +42,8 @@ const ProjectDetails = () => {
           <h2>Project Details //</h2><br/>
           <h3>{project.about}</h3><br/>
           <p>{project.description}</p><br/>
-          <p className="role-tools">Role: {project.role}</p>
-          <p className="role-tools">Tools: {project.tools}</p><br/>
+          <p className="role-tools"><strong>Role:</strong> {project.role}</p>
+          <p className="role-tools"><strong>Tools:</strong> {project.tools}</p><br/>
           <a href={project.site_link} target="_blank" rel="noopener noreferrer">Visit Site</a>
         </div>
       </div>
@@ -52,6 +52,7 @@ const ProjectDetails = () => {
           <img key={index} src={mockup} alt={`Mockup ${index + 1}`} />
         ))}
       </div>
+      <div className="margin"></div>
     </div>
   );
 };

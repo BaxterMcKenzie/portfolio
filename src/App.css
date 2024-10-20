@@ -384,6 +384,8 @@ a {
   border: 5px solid green;
 
   h1 {
+    position: absolute;
+    bottom: 120px;
     font-family: "DM Sans", sans-serif;
     font-weight: 900;
     color: white;
@@ -425,6 +427,7 @@ a {
 
 .galleryDetails {
   opacity: 0;
+  height: 100%;
   width: 100%;
   background: linear-gradient(#ffffff00, #000000de);
   display: flex;
@@ -514,6 +517,9 @@ a {
   object-fit: cover;
   height: 100%; /* Image should take up 100% of its container's height */
   border-radius: 20px;
+  box-shadow: -3px 3px 8px 0px rgba(31,30,30,0.75);
+-webkit-box-shadow: -3px 3px 8px 0px rgba(31,30,30,0.75);
+-moz-box-shadow: -3px 3px 8px 0px rgba(31,30,30,0.75);
 }
 
 .project-descrpition {
@@ -524,6 +530,9 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between; /* Distributes content evenly */
+  box-shadow: -3px 3px 8px 0px rgba(31,30,30,0.75);
+-webkit-box-shadow: -3px 3px 8px 0px rgba(31,30,30,0.75);
+-moz-box-shadow: -3px 3px 8px 0px rgba(31,30,30,0.75);
 
   p {
     color: white;
@@ -581,9 +590,12 @@ a {
   font-weight: 300;
 }
 
-img {
+.project-details-container img {
   width: 100%;
   border-radius: 20px;
+  box-shadow: -3px 3px 8px 0px rgba(31,30,30,0.75);
+-webkit-box-shadow: -3px 3px 8px 0px rgba(31,30,30,0.75);
+-moz-box-shadow: -3px 3px 8px 0px rgba(31,30,30,0.75);
 }
 
 .mockup-container {
@@ -591,12 +603,51 @@ img {
   width: 90%;
   gap: 10px;
   grid-template-columns: repeat(2, 1fr);
-  margin-top: 50px;
+  margin-top: 10px;
 
   img {
     object-fit: cover;
     height: 100%;
   }
+}
+
+.footer {
+    position: relative;
+    background-image: url(/public/home-img/title-banner-invert.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    p {
+      color: white;
+      font-family: "DM Sans", sans-serif;
+      font-size: 18px;
+      font-weight: 300;
+    }
+}
+
+.name-social-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  a {
+    font-size: 24px;
+    margin-left: 5px;
+    color: #ffffff;
+  }
+}
+
+/* Single page footer margin */
+
+.margin {
+  margin-top: 80px;
 }
 
 /* Media Queries */
