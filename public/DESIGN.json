@@ -1,0 +1,88 @@
+[
+  {
+    "id": "kinetic",
+    "project": "Kinetic",
+    "cover_art": "/img/design/kinetic-thumbnail.webp",
+    "description": "Client Flyer: Kinetic Recruitment sought to create a vibrant flyer for their employees to distribute to clients. They aimed for a design that was engaging and energetic, departing from conventional, dull flyers. After exploring several concepts, we collectively decided on two standout designs that struck the perfect balance between eye-catching visuals and a corporate aesthetic.<br><br>Client Testimonial: At Kinetic, the emphasis is on fostering a friendly, hardworking team dedicated to helping people find employment. They requested a playful yet easily readable design that would align with their existing brand colors. To facilitate sharing on social media, we designed a square template that allows for easy updates. We created multiple template variations to ensure a fresh and dynamic presentation without becoming repetitive.<br><br>Ink Ribbon Breakfast: In support of Pink Ribbon Month, Kinetic Recruitment organized a delightful event where they distributed boxes of cupcakes to clients. They envisioned a design that was not only fun and vibrant, reflecting the pink theme, but also communicated a powerful message about the impact of breast cancer on countless individuals in New Zealand. The design effectively captured the essence of this important cause while maintaining an inviting and cheerful atmosphere.",
+    "about": "Freelance Graphic Design",
+    "role": "Designer",
+    "tools": "CorelDraw & Photoshop",
+    "mockups": [
+      "/img/design/kinetic-1.webp",
+      "/img/design/kinetic-2.webp",
+      "/img/design/kinetic-3.webp",
+      "/img/design/kinetic-4.webp",
+      "/img/design/kinetic-5.webp",
+      "/img/design/kinetic-6.webp",
+      "/img/design/pink-ribbon.webp",
+      "/img/design/kinetic-cup-cake.webp"
+    ]
+  },  
+    {
+        "id": "pokemon-app",
+        "project": "Pokemon App",
+        "cover_art": "/img/pokemon-thumbnail.webp",
+        "description": "This project showcases a detailed Pokémon viewer, built with React, where users can explore individual Pokémon stats, abilities, and moves in a visually engaging way. The interface features dynamic data rendering using React Router for seamless navigation and Axios for fetching Pokémon data. Each Pokémon card displays both official artwork and animated sprites, with relevant stats such as HP, attack, and speed. Custom CSS styling enhances the user experience, with type-based color schemes that adjust dynamically to match the primary Pokémon type. A playful touch is added with GSAP-powered Pokéball animations, creating a fun and interactive feel. Sound integration allows users to listen to both modern and legacy Pokémon cries, enriching the immersion. The layout adapts responsively to different screen sizes using CSS modules, ensuring a smooth experience across devices. This project reflects my skills in front-end development, interactive design, and working with APIs to build dynamic, data-driven applications.",
+        "about": "Yoobee WEB UI/UX 2024",
+        "role": "Developer and Designer",
+        "tools": "React, React Router, Axios, GSAP, CSS Modules",
+        "site_link": "https://pokedex-psi-ochre.vercel.app/",
+        "mockups": [
+          "/img/pokemon-phone.webp",
+          "/img/pokemon-laptop.webp",
+          "/img/pokemon-tablet.webp",
+          "/img/pokemon-phone2.webp"
+        ]
+      },
+      {
+        "id": "dicks-decks",
+        "project": "Dick's Decks",
+        "cover_art": "/img/dicks_decks.webp",
+        "description": "This project showcases a dynamic skateboard store with sorting, filtering, and mapping features using a responsive design. Deck data is dynamically loaded, allowing users to explore key product details such as brand, width, and price, presented in an interactive card layout. A key feature is the use of jQuery to handle user interactions and Swiper.js for smooth image carousels. Mapbox integration provides a visual way to explore store locations on a map. The cards are styled using CSS Grid for responsive layouts, with hover effects to enhance the user experience. This project demonstrates my skills in front-end development, working with JSON data, and building interactive, data-driven interfaces.",
+        "about": "Yoobee WEB UI/UX 2024",
+        "role": "Developer and Designer",
+        "tools": "HTML, CSS, JavaScript, jQuery, Swiper.js, Mapbox, Axios, Illustrator",
+        "site_link": "https://skateshop-cyan.vercel.app/",
+        "mockups": [
+          "/img/dicks-decks-multi.webp",
+          "/img/dicks-decks-tablet.webp",
+          "/img/dicks-decks-phone.webp",
+          "/img/dicks-decks-laptop.webp"
+        ]
+      },
+      {
+        "id": "artie-fartie",
+        "project": "Artie Fartie",
+        "cover_art": "/img/artie-fartie-phone.webp",
+        "description": "This project showcases a collaborative craft marketplace built with React, featuring a responsive front-end and secure back-end integration. The site allows users to browse, filter, and purchase handcrafted items while supporting multiple user roles such as buyers, sellers, and admins. Key functionalities include smooth navigation with React Router, data handling with Axios, and optimized state management. The back-end, built with Express and MongoDB, manages authentication, secure file uploads via Cloudinary, and data validation to ensure reliability. The interface is styled using Sass, with responsive layouts powered by Vite.",
+        "about": "Yoobee WEB UI/UX 2024",
+        "role": "Front-end, Back-end Developer and Collaborator",
+        "tools": "React, React Router, Sass, Vite, Axios, Express, MongoDB, Mongoose, Cloudinary, JWT, Photoshop. Coordinated tasks using Trello, collaborated on design prototypes in Figma, and managed version control with GitHub.",
+        "site_link": "https://skateshop-cyan.vercel.app/",
+        "mockups": [
+          "/img/artie-fartie-iphone-ipad-pc.webp",
+          "/img/artie-fartie-phone.webp",
+          "/img/artie-fartie-thumbnail.webp",
+          "/img/artie-fartie-duel-phone.webp",
+          "/img/artie-fartie-ipad.webp",
+          "/img/artie-fartie-pc.webp"
+        ]
+      },
+      {
+        "id": "north-island-stays",
+        "project": "North Island Stays",
+        "cover_art": "/img/north-island-stays-desktop-mobile.webp",
+        "description": "This project is an accommodation booking platform that provides users with a seamless way to find, filter, and book properties across multiple locations. The site integrates a dynamic search feature, real-time map visualization using Mapbox, and interactive forms with input validation. Users can filter properties based on location, type, guest capacity, and other amenities, while sort functions help with price comparisons. Fullpage.js powers smooth navigation across different sections, enhancing the overall user experience.",
+        "about": "Yoobee WEB UI/UX 2024",
+        "role": "Full-Stack Developer",
+        "tools": "JavaScript, jQuery, Mapbox, Fullpage.js, Gulp, Sass, GitHub",
+        "site_link": "https://housing-app-beryl.vercel.app/",
+        "mockups": [
+          "/img/north-island-stays-multi-phone.webp",
+          "/img/north-island-stays-laptop.webp",
+          "/img/north-island-stays-desktop-multi.webp",
+          "/img/north-island-stays-tablet-vert.webp"
+        ]
+      }
+  ]
+  

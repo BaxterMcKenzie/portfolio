@@ -6,7 +6,7 @@ import Design from '../pages/Design';
 import Illustration from '../pages/Illustration';
 import Personal from '../pages/Personal';
 import Contact from '../pages/Contact';
-import ProjectDetails from '../pages/ProjectDetails'; // Import the ProjectDetails component
+import ProjectDetails from '../pages/ProjectDetails';
 
 const Links = () => {
   return (
@@ -17,7 +17,8 @@ const Links = () => {
       <Route path="/illustration" element={<Illustration />} />
       <Route path="/personal" element={<Personal />} />
       <Route path="/contact" element={<Contact />} />
-      <Route path="/project/:projectId" element={<ProjectDetails />} />
+      {/* Updated route with `type` parameter */}
+      <Route path="/projects/:type/:projectId" element={<ProjectDetails />} />
     </Routes>
   );
 };

@@ -334,13 +334,13 @@ a {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 250px;
+  height: 300px;
   padding: 30px;
 
   button {
     position: absolute;
     top: 10px;
-    left: 20px;
+    right: 20px;
     border: black 2px solid;
     padding: 10px;
     border-radius: 15px;
@@ -385,10 +385,12 @@ a {
 
   h1 {
     position: absolute;
-    bottom: 120px;
+    bottom: 15%;
+    width: 10ch;
     font-family: "DM Sans", sans-serif;
     font-weight: 900;
     color: white;
+    text-align: center;
     font-size: 36px;
     -webkit-text-stroke: 0px rgb(255, 255, 255);
     text-stroke: 0px rgb(255, 255, 255);
@@ -396,7 +398,7 @@ a {
 }
 
 .galleryCard {
-  background-image: url(/public/home-img/modal-fill.webp);
+  background-image: url(/public/home-img/gallery-card-web.webp);
   background-size: cover;
   border-radius: 28px;
   box-shadow: 10px 11px 4px -2px rgba(0, 0, 0, 0.75);
@@ -412,7 +414,7 @@ a {
 
 .gallery-art {
   width: 100%;
-  height: 500px;
+  height: 40vh;
   background-size: cover;
   background-position: center;
   border-radius: 22px;
@@ -431,6 +433,7 @@ a {
   width: 100%;
   background: linear-gradient(#ffffff00, #000000de);
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -505,7 +508,7 @@ a {
   }
 }
 
-.project-details-main-img-desription {
+.project-details-main-img-description {
   display: grid;
   grid-template-columns: 2fr 2fr;
   gap: 10px;
@@ -522,7 +525,7 @@ a {
 -moz-box-shadow: -3px 3px 8px 0px rgba(31,30,30,0.75);
 }
 
-.project-descrpition {
+.project-description {
   background-color: #333;
   border-radius: 20px;
   padding: 30px 80px 30px 30px;
@@ -617,7 +620,7 @@ a {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100px;
+    height: 150px;
     padding: 30px;
     display: flex;
     align-items: center;
@@ -630,6 +633,15 @@ a {
       font-size: 18px;
       font-weight: 300;
     }
+}
+
+.footer-backdrop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #3333337f;
+  padding: 20px;
+  border-radius: 20px;
 }
 
 .name-social-footer {
@@ -652,17 +664,17 @@ a {
 
 /* Media Queries */
 
-@media screen and (max-width: 1024px) {
-  .project-details-main-img-desription {
+@media screen and (max-width: 1030px) {
+  .project-details-main-img-description {
     grid-template-columns: 1fr; /* Stack columns on smaller screens */
   }
 
-  .project-descrpition, .project-main-img {
+  .project-description, .project-main-img {
     height: auto; /* Allow natural height on smaller screens */
   }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1030px) {
   .gallery {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -690,7 +702,7 @@ a {
 
   }
 
-  .project-details-main-img-desription {
+  .project-details-main-img-description {
     grid-template-columns: 1fr; /* Ensure a single column layout on mobile */
   }
 }
@@ -720,7 +732,7 @@ a {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 250px;
+    height: 300px;
     padding: 30px;
   
     h1 {
@@ -734,7 +746,7 @@ a {
     }
   }
 
-  .project-descrpition {
+  .project-description {
     padding: 30px;
 }
 
