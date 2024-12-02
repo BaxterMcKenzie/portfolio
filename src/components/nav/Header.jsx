@@ -20,9 +20,11 @@ const Header = () => {
       <div className='nav-links'>
         <NavLink to="/" activeclassname="active">Home</NavLink>
         <NavLink to="/web" activeclassname="active">Web</NavLink>
-        <NavLink to="/design" activeclassname="active">Design</NavLink>
+
+        {/* <NavLink to="/design" activeclassname="active">Design</NavLink>
         <NavLink to="/illustration" activeclassname="active">Illustration</NavLink>
-        <NavLink to="/personal" activeclassname="active">Personal</NavLink>
+        <NavLink to="/personal" activeclassname="active">Personal</NavLink> */}
+        
         <NavLink to="/contact" activeclassname="active">Contact</NavLink>
       </div>
       <div className="hamburger" onClick={openModal}>
