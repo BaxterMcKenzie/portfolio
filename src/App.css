@@ -571,19 +571,26 @@ a {
     font-size: 16px;
     font-weight: 800;
     cursor: pointer;
-    width: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     color: black;
-    text-decoration: underline;
-    transition: ease-in 0.5s;
+    text-decoration: none;
+    transition: ease-in-out 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
-
+  
   a:hover {
     background-image: url(/public/home-img/button-invert.webp);
     color: white;
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(255, 255, 255, 0.2);
+  }
+  
+  a:active {
+    transform: scale(0.98);
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.3);
   }
 }
 

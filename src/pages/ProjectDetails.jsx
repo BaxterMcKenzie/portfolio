@@ -46,6 +46,10 @@ const ProjectDetails = () => {
           <div className="button-holder">
             <a href={project.site_link} target="_blank" rel="noopener noreferrer">Visit Site</a>
             <a href={project.git_repo} target="_blank" rel="noopener noreferrer">Git Repo</a>
+            {/* Conditionally render backend Git repo if it exists */}
+            {project.git_repo2 && (
+              <a href={project.git_repo2} target="_blank" rel="noopener noreferrer">Backend Git Repo</a>
+            )}
           </div>
         </div>
       </div>
