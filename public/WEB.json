@@ -7,6 +7,7 @@
     "role": "Developer and Designer",
     "tools": "React, Axios, CSS Grid",
     "site_link": "https://my-favourite-albums.vercel.app/",
+    "git_repo": "https://github.com/BaxterMcKenzie/my-favourite-albums",
     "mockups": [
       "/img/web/album-desktop.webp",
       "/img/web/album-tablet.webp",
@@ -22,6 +23,7 @@
     "role": "Developer and Designer",
     "tools": "React, React Router, Axios, GSAP, CSS Modules",
     "site_link": "https://pokedex-psi-ochre.vercel.app/",
+    "git_repo": "https://github.com/BaxterMcKenzie/Pokedex",
     "mockups": [
       "/img/web/pokemon-phone.webp",
       "/img/web/pokemon-laptop.webp",
@@ -38,6 +40,7 @@
     "role": "Developer and Designer",
     "tools": "HTML, CSS, JavaScript, jQuery, Swiper.js, Mapbox, Axios, Illustrator",
     "site_link": "https://skateshop-cyan.vercel.app/",
+    "git_repo": "https://github.com/BaxterMcKenzie/skateshop",
     "mockups": [
       "/img/web/dicks-decks-multi.webp",
       "/img/web/dicks-decks-tablet.webp",
@@ -54,6 +57,7 @@
     "role": "Front-end, Back-end Developer and Collaborator",
     "tools": "React, React Router, Sass, Vite, Axios, Express, MongoDB, Mongoose, Cloudinary, JWT, Photoshop. Coordinated tasks using Trello, collaborated on design prototypes in Figma, and managed version control with GitHub.",
     "site_link": "https://skateshop-cyan.vercel.app/",
+    "git_repo": "",
     "mockups": [
       "/img/web/artie-fartie-iphone-ipad-pc.webp",
       "/img/web/artie-fartie-phone.webp",
@@ -72,6 +76,7 @@
     "role": "Full-Stack Developer",
     "tools": "JavaScript, jQuery, Mapbox, Fullpage.js, Gulp, Sass, GitHub",
     "site_link": "https://housing-app-beryl.vercel.app/",
+    "git_repo": "https://github.com/BaxterMcKenzie/Housing-App",
     "mockups": [
       "/img/web/north-island-stays-multi-phone.webp",
       "/img/web/north-island-stays-laptop.webp",
@@ -88,6 +93,7 @@
     "role": "Full-Stack Developer",
     "tools": "React, WordPress, PHP, Vite, Yoast SEO, WooCommerce, Contact Form 7, CPT UI, Secure Custom Fields, ACF to REST API, All-in-One Migration",
     "site_link": "https://tipu-garden-management.vercel.app/#/",
+    "git_repo": "https://github.com/BaxterMcKenzie/tipu-garden-management",
     "mockups": [
       "/img/web/floating-pc-tipu.webp",
       "/img/web/floating-laptop-tipu.webp",

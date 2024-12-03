@@ -43,7 +43,10 @@ const ProjectDetails = () => {
           <p>{project.description}</p><br />
           <p className="role-tools"><strong>Role:</strong> {project.role}</p>
           <p className="role-tools"><strong>Tools:</strong> {project.tools}</p><br />
-          <a href={project.site_link} target="_blank" rel="noopener noreferrer">Visit Site</a>
+          <div className="button-holder">
+            <a href={project.site_link} target="_blank" rel="noopener noreferrer">Visit Site</a>
+            <a href={project.git_repo} target="_blank" rel="noopener noreferrer">Git Repo</a>
+          </div>
         </div>
       </div>
       <div className="mockup-container">
