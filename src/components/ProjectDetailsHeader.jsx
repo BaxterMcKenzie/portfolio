@@ -1,15 +1,19 @@
-import React from 'react'
-import { useNavigate } from 'react-router-dom'
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 
-const ProjectDetailsHeader = ({title}) => {
-    const navigate = useNavigate();
+const ProjectDetailsHeader = ({ title }) => {
+  const navigate = useNavigate();
 
   return (
-    <div className='project-details-header'>
-        <button onClick={() => navigate(-1)}>Go Back</button>
-        <h1>{title}</h1>
+    <div className="project-details-header">
+      <button className="back-button" onClick={() => navigate(-1)}>
+        <FontAwesomeIcon icon={faArrowLeft} />
+      </button>
+      <h1>{title}</h1>
     </div>
-  )
-}
+  );
+};
 
-export default ProjectDetailsHeader
+export default ProjectDetailsHeader;

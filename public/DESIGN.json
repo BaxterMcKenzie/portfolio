@@ -3,85 +3,100 @@
     "id": "kinetic",
     "project": "Kinetic",
     "cover_art": "/img/design/kinetic-thumbnail.webp",
-    "description": "Client Flyer: Kinetic Recruitment sought to create a vibrant flyer for their employees to distribute to clients. They aimed for a design that was engaging and energetic, departing from conventional, dull flyers. After exploring several concepts, we collectively decided on two standout designs that struck the perfect balance between eye-catching visuals and a corporate aesthetic.<br><br>Client Testimonial: At Kinetic, the emphasis is on fostering a friendly, hardworking team dedicated to helping people find employment. They requested a playful yet easily readable design that would align with their existing brand colors. To facilitate sharing on social media, we designed a square template that allows for easy updates. We created multiple template variations to ensure a fresh and dynamic presentation without becoming repetitive.<br><br>Ink Ribbon Breakfast: In support of Pink Ribbon Month, Kinetic Recruitment organized a delightful event where they distributed boxes of cupcakes to clients. They envisioned a design that was not only fun and vibrant, reflecting the pink theme, but also communicated a powerful message about the impact of breast cancer on countless individuals in New Zealand. The design effectively captured the essence of this important cause while maintaining an inviting and cheerful atmosphere.",
+    "description": "<strong>Client Flyer:</strong> Kinetic Recruitment sought to create a vibrant flyer for their employees to distribute to clients. They aimed for a design that was engaging and energetic, departing from conventional, dull flyers. After exploring several concepts, we collectively decided on two standout designs that struck the perfect balance between eye-catching visuals and a corporate aesthetic.",
     "about": "Freelance Graphic Design",
     "role": "Designer",
     "tools": "CorelDraw & Photoshop",
     "mockups": [
       "/img/design/kinetic-1.webp",
-      "/img/design/kinetic-2.webp",
-      "/img/design/kinetic-3.webp",
+      "/img/design/kinetic-2.webp"
+    ],
+    "description2": "<strong>Client Testimonial:</strong> At Kinetic, the emphasis is on fostering a friendly, hardworking team dedicated to helping people find employment. They requested a playful yet easily readable design that would align with their existing brand colors. To facilitate sharing on social media, we designed a square template that allows for easy updates. We created multiple template variations to ensure a fresh and dynamic presentation without becoming repetitive.",
+    "mockups2": [
+      "/img/design/kinetic-mock.webp",
       "/img/design/kinetic-4.webp",
       "/img/design/kinetic-5.webp",
-      "/img/design/kinetic-6.webp",
+      "/img/design/kinetic-6.webp"
+    ],
+    "description3": "<strong>Pink Ribbon Breakfast:</strong> In support of Pink Ribbon Month, Kinetic Recruitment organized a delightful event where they distributed boxes of cupcakes to clients. They envisioned a design that was not only fun and vibrant, reflecting the pink theme, but also communicated a powerful message about the impact of breast cancer on countless individuals in New Zealand. The design effectively captured the essence of this important cause while maintaining an inviting and cheerful atmosphere.",
+    "mockups3": [
       "/img/design/pink-ribbon.webp",
       "/img/design/kinetic-cup-cake.webp"
     ]
   },  
     {
-        "id": "pokemon-app",
-        "project": "Pokemon App",
-        "cover_art": "/img/pokemon-thumbnail.webp",
-        "description": "This project showcases a detailed Pokémon viewer, built with React, where users can explore individual Pokémon stats, abilities, and moves in a visually engaging way. The interface features dynamic data rendering using React Router for seamless navigation and Axios for fetching Pokémon data. Each Pokémon card displays both official artwork and animated sprites, with relevant stats such as HP, attack, and speed. Custom CSS styling enhances the user experience, with type-based color schemes that adjust dynamically to match the primary Pokémon type. A playful touch is added with GSAP-powered Pokéball animations, creating a fun and interactive feel. Sound integration allows users to listen to both modern and legacy Pokémon cries, enriching the immersion. The layout adapts responsively to different screen sizes using CSS modules, ensuring a smooth experience across devices. This project reflects my skills in front-end development, interactive design, and working with APIs to build dynamic, data-driven applications.",
-        "about": "Yoobee WEB UI/UX 2024",
-        "role": "Developer and Designer",
-        "tools": "React, React Router, Axios, GSAP, CSS Modules",
-        "site_link": "https://pokedex-psi-ochre.vercel.app/",
+        "id": "tipu-garden-management-design",
+        "project": "Tipu Garden Management",
+        "cover_art": "/img/design/tipu-business-card-mock.webp",
+        "description": "Tipu Garden Management is a gardening company founded by my brother-in-law, focused on providing professional and friendly gardening services. The goal was to create a brand identity that stood out from the usual gardening aesthetics by incorporating earthy tones with a natural yet vibrant feel. The project included designing a logo, business cards, and branded clothing such as hats and uniforms. The final design successfully captured the essence of the brand, maintaining a professional look while staying approachable and fresh. The logo translates beautifully into embroidery and screen printing, ensuring consistent and high-quality branding across all materials",
+        "about": "Freelance Graphic Design",
+        "role": "Designer",
+        "tools": "CorelDraw",
         "mockups": [
-          "/img/pokemon-phone.webp",
-          "/img/pokemon-laptop.webp",
-          "/img/pokemon-tablet.webp",
-          "/img/pokemon-phone2.webp"
+          "/img/design/tipu-card-mock.webp",
+          "/img/design/tipu-logo.webp",
+          "/img/design/tipu-hat.webp",
+          "/img/design/tipu-tee.webp"
         ]
       },
       {
-        "id": "dicks-decks",
-        "project": "Dick's Decks",
-        "cover_art": "/img/dicks_decks.webp",
-        "description": "This project showcases a dynamic skateboard store with sorting, filtering, and mapping features using a responsive design. Deck data is dynamically loaded, allowing users to explore key product details such as brand, width, and price, presented in an interactive card layout. A key feature is the use of jQuery to handle user interactions and Swiper.js for smooth image carousels. Mapbox integration provides a visual way to explore store locations on a map. The cards are styled using CSS Grid for responsive layouts, with hover effects to enhance the user experience. This project demonstrates my skills in front-end development, working with JSON data, and building interactive, data-driven interfaces.",
-        "about": "Yoobee WEB UI/UX 2024",
-        "role": "Developer and Designer",
-        "tools": "HTML, CSS, JavaScript, jQuery, Swiper.js, Mapbox, Axios, Illustrator",
-        "site_link": "https://skateshop-cyan.vercel.app/",
-        "mockups": [
-          "/img/dicks-decks-multi.webp",
-          "/img/dicks-decks-tablet.webp",
-          "/img/dicks-decks-phone.webp",
-          "/img/dicks-decks-laptop.webp"
-        ]
-      },
-      {
-        "id": "artie-fartie",
-        "project": "Artie Fartie",
-        "cover_art": "/img/artie-fartie-phone.webp",
-        "description": "This project showcases a collaborative craft marketplace built with React, featuring a responsive front-end and secure back-end integration. The site allows users to browse, filter, and purchase handcrafted items while supporting multiple user roles such as buyers, sellers, and admins. Key functionalities include smooth navigation with React Router, data handling with Axios, and optimized state management. The back-end, built with Express and MongoDB, manages authentication, secure file uploads via Cloudinary, and data validation to ensure reliability. The interface is styled using Sass, with responsive layouts powered by Vite.",
-        "about": "Yoobee WEB UI/UX 2024",
-        "role": "Front-end, Back-end Developer and Collaborator",
-        "tools": "React, React Router, Sass, Vite, Axios, Express, MongoDB, Mongoose, Cloudinary, JWT, Photoshop. Coordinated tasks using Trello, collaborated on design prototypes in Figma, and managed version control with GitHub.",
-        "site_link": "https://skateshop-cyan.vercel.app/",
-        "mockups": [
-          "/img/artie-fartie-iphone-ipad-pc.webp",
-          "/img/artie-fartie-phone.webp",
-          "/img/artie-fartie-thumbnail.webp",
-          "/img/artie-fartie-duel-phone.webp",
-          "/img/artie-fartie-ipad.webp",
-          "/img/artie-fartie-pc.webp"
-        ]
-      },
-      {
-        "id": "north-island-stays",
-        "project": "North Island Stays",
-        "cover_art": "/img/north-island-stays-desktop-mobile.webp",
-        "description": "This project is an accommodation booking platform that provides users with a seamless way to find, filter, and book properties across multiple locations. The site integrates a dynamic search feature, real-time map visualization using Mapbox, and interactive forms with input validation. Users can filter properties based on location, type, guest capacity, and other amenities, while sort functions help with price comparisons. Fullpage.js powers smooth navigation across different sections, enhancing the overall user experience.",
-        "about": "Yoobee WEB UI/UX 2024",
-        "role": "Full-Stack Developer",
-        "tools": "JavaScript, jQuery, Mapbox, Fullpage.js, Gulp, Sass, GitHub",
-        "site_link": "https://housing-app-beryl.vercel.app/",
-        "mockups": [
-          "/img/north-island-stays-multi-phone.webp",
-          "/img/north-island-stays-laptop.webp",
-          "/img/north-island-stays-desktop-multi.webp",
-          "/img/north-island-stays-tablet-vert.webp"
+        "id": "brazen-designs",
+        "project": "Brazen Designs",
+        "cover_art": "/img/design/joe-1.webp",
+        "description": "At Brazen Clothing, I have been working as a graphic designer for over 7 years, specializing in creating garment designs for screen printing and embroidery. My role involves collaborating with clients via email and phone to transform their ideas into high-quality designs, working with spot colors, and meeting tight deadlines. I also coordinate with screen printers and embroiderers to ensure every project is completed on time and to the highest standard. This dynamic role allows me to balance creativity with technical precision, contributing to the success of custom apparel projects. Below are a few of my favorite designs.",
+        "about": "Freelance Graphic Design",
+        "role": "Designer",
+        "tools": "CorelDraw & Photoshop",
+        "description2": "<strong>Wel Lift Crew:</strong> Wel Lift Crew is a gym/streetwear apparel company. The client wanted that classic faded 90s style, inspired by old-school basketball and sports t-shirts. They provided a few reference images to guide the design process. This project was particularly enjoyable for me, as I have a deep appreciation for that design style. It also provided a valuable opportunity to work across several different design programs. Both the client and I were thrilled with the final result.",
+        "mockups2": [
+          "/img/design/joe-1.webp",
+          "/img/design/joe-2.webp"
+        ],
+        "description3": "<strong>Signal: </strong>Signal is a cyber security company that approached Brazen with a request for something 'nerdy' in design. I’d call myself a nerd, but this was a different kind of nerdy. The first design features a ball representing global security, with binary code spelling out 'Signal.' The second design symbolizes their ability to secure cloud storage, with rain made of binary code illustrating their tagline, 'Taking on the World from NZ.' Although the client initially wanted just one design, they were so pleased with both that they decided to print them both.",
+        "mockups3": [
+          "/img/design/signal-1.webp",
+          "/img/design/signal-2.webp",
+          "/img/design/signal-4.webp",
+          "/img/design/signal-3.webp"
+        ],
+        "description4": "<strong>Aoraki: </strong>One day, the client came to me with a photo of a crane he had taken and asked if we could print it. I took on the challenge of redrawing the photo into a printable vector file. After five hours of work, this was the final result. The design turned out so well that it became the standard print for Aoraki.",
+        "mockups4": [
+          "/img/design/aoraki-1.webp",
+          "/img/design/aoraki-2.webp"
+        ],
+        "description5": "<strong>Gipsy Kitchen: </strong>Gipsy Kitchen is a fantastic client to work with. They have a signature Gipsy character, and every time they need a new design, they simply ask for 'Gipsy plus pop culture reference.' This particular design was 'Gipsy plus Motorhead,' which was a lot of fun to create. It was a great lesson in matching the tones of two distinct styles and merging them into one cohesive graphic.",
+        "mockups5": [
+          "/img/design/gipsy-2.webp",
+          "/img/design/gipsy-3.webp"
+        ],
+        "description6": "<strong>Mauri Construction: </strong>Mauri Construction came to me with a simple yet meaningful idea—starting a building company named after his Blue Heeler dog. I chose a bold, straight-edge font to convey strength and solidity, which felt fitting for a building company. We experimented with a few dog designs, and this one became our favorite: a dog with a hammer in its mouth, which perfectly captures the essence of a Kiwi builder.",
+        "mockups6": [
+          "/img/design/mauri-1.webp",
+          "/img/design/mauri-2.webp"
+        ],
+        "description7": "<strong>F45 Gym: </strong>F45 Gym is a regular client, as they host multiple competitions each year. Typically, they send me a few ideas—such as animals and color schemes—and I take it from there, creating designs that align with their vision. These are some of my favorite designs I've created for them, each one reflecting the energy and spirit of their competitions.",
+        "mockups7": [
+          "/img/design/f45-1.webp",
+          "/img/design/f45-2.webp",
+          "/img/design/f45-4.webp",
+          "/img/design/f45-3.webp",
+          "/img/design/f45-5.webp",
+          "/img/design/f45-6.webp"
+        ],
+        "description8": "<strong>Fades & Sexy Babes: </strong>Crispy Fades & Sexy Babes came to Brazen looking for something different from the typical barber logo. They provided a few reference images, and together we came up with a unique design that stood out from the crowd. The client was extremely happy with the final result, and it perfectly captured their bold and distinctive brand identity.",
+        "mockups8": [
+          "/img/design/crispy-1.webp",
+          "/img/design/crispy-2.webp"
+        ],
+        "description9": "<strong>Little Sprig: </strong>Little Sprig Seatoun wanted to refresh their shirts with a new design, specifically focusing on the back of the shirt. They asked if I could incorporate something that represented Seatoun. We decided on the iconic little island just off Seatoun, as it's easily recognizable and makes for a striking design on the back of the shirt.",
+        "mockups9": [
+          "/img/design/lil-sprig-1.webp",
+          "/img/design/lil-sprig-3.webp"
+        ],
+        "description10": "<strong>Manawa Tahi: </strong>Manawa Tahi, which translates to 'One Heart' in Māori, is a slow pitch team that wanted a design reflecting the sport, teamwork, and togetherness. The brief was clear and straightforward, with few changes needed throughout the process. The design came together seamlessly, and both the client and the team were thrilled with the final result, perfectly capturing the spirit of unity and camaraderie.",
+        "mockups10": [
+          "/img/design/manawa-tahi-1.webp",
+          "/img/design/manawa-tahi-2.webp"
         ]
       }
   ]

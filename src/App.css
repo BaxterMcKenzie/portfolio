@@ -334,17 +334,18 @@ a {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 300px;
+  height: 100%;
   padding: 30px;
 
-  button {
+  .back-button {
+    color: white;
     position: absolute;
     top: 10px;
     right: 20px;
     border: black 2px solid;
     padding: 10px;
-    border-radius: 15px;
-    background-image: url(/public/home-img/button.webp);
+    border-radius: 50px;
+    background-image: url(/public/home-img/button-invert.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -352,8 +353,12 @@ a {
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
-    width: 100px;
+    height: 40px;
+    width: 40px;
     transition: ease-in .5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   button:hover {
@@ -381,7 +386,6 @@ a {
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
   background-color: #ffffff;
-  border: 5px solid green;
 
   h1 {
     position: absolute;
@@ -465,14 +469,14 @@ a {
     margin-top: 20px;
   }
 
-  button {
+  .back-button {
     color: white;
     position: absolute;
     top: 10px;
-    left: 20px;
+    right: 20px;
     border: black 2px solid;
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 50px;
     background-image: url(/public/home-img/button-invert.webp);
     background-size: cover;
     background-position: center;
@@ -481,8 +485,12 @@ a {
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
-    width: 100px;
+    height: 40px;
+    width: 40px;
     transition: ease-in .5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   button:hover {
@@ -512,7 +520,7 @@ a {
   display: grid;
   grid-template-columns: 2fr 2fr;
   gap: 10px;
-  width: 90%;
+  width: 80%;
   align-items: stretch; /* Ensure equal height alignment */
 }
 
@@ -594,6 +602,84 @@ a {
   }
 }
 
+.project-multi-container-background {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: black 3px solid;
+}
+
+.project-description-multi {
+  border-radius: 20px;
+  padding: 20px 0px 30px 0px;
+  height: 100%; /* Make sure it takes the same height as the image */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Distributes content evenly */
+  width: 80%;
+
+  p {
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.9rem;
+    width: 100%;
+    align-items: center;
+  }
+
+  h2 {
+    font-family: "Darker Grotesque", system-ui;
+    font-size: 38px;
+    font-weight: 900;
+    color: white;
+  }
+
+  h3 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 800;
+    color: white;
+    letter-spacing: 1px;
+  }
+
+  a {
+    border: black 2px solid;
+    padding: 10px;
+    border-radius: 15px;
+    background-image: url(/public/home-img/button.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    transition: ease-in-out 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  a:hover {
+    background-image: url(/public/home-img/button-invert.webp);
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(255, 255, 255, 0.2);
+  }
+  
+  a:active {
+    transform: scale(0.98);
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+}
+
 .role-tools {
   color: white;
   font-family: "DM Sans", sans-serif;
@@ -609,9 +695,13 @@ a {
 -moz-box-shadow: -3px 3px 8px 0px rgba(31,30,30,0.75);
 }
 
+.project-multi-container {
+  width: 80%;
+}
+
 .mockup-container {
   display: grid;
-  width: 90%;
+  width: 80%;
   gap: 10px;
   grid-template-columns: repeat(2, 1fr);
   margin-top: 10px;
@@ -694,10 +784,24 @@ a {
 
 /* Media Queries */
 
-@media (max-width: 1030px) {
+@media (max-width: 1140px) {
+  .project-details-header {
+    height: 150px;
+  
+    h1 {
+      font-size: 60px;
+    }
+
+  }
+}
+
+@media (max-width: 1300px) {
   .project-details-main-img-description {
     grid-template-columns: 1fr; /* Stack columns on smaller screens */
   }
+}
+
+@media (max-width: 1030px) {
 
   .project-description, .project-main-img {
     height: auto; /* Allow natural height on smaller screens */
@@ -723,11 +827,12 @@ a {
 
   .page-header {
     height: 100%;
-  
-    h1 {
-      font-size: 150px;
-    }
   }
+
+  .project-description-multi {
+    width: 90%;
+  }
+
 }
 
 @media (max-width: 768px) {
@@ -768,6 +873,32 @@ a {
     margin-left: 80px;
   }
 
+  .mockup-container {
+    display: grid;
+    width: 80%;
+    gap: 10px;
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 10px;
+  
+    img {
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  .project-description-multi {
+    padding: 30px 00px 30px 0px;
+  
+    p {
+      color: #ffffff;
+      font-family: "DM Sans", sans-serif;
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 1.9rem;
+      width: 100%;
+    }
+  }
 
 }
 
@@ -785,9 +916,13 @@ a {
     height: 120px;
   
     h1 {
-      font-size: 32px;
+      font-size: 24px;
     }
 
+  }
+
+  .footer-backdrop {
+    text-align: center;
   }
 
   .page-header {
