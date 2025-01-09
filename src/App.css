@@ -298,7 +298,7 @@ a {
 
   .background-image {
     position: absolute;
-    background-image: url(/public/home-img/home-background-01.webp); /* Remove /public */
+    background-image: url(/home-img/home-background-01.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -330,7 +330,7 @@ a {
 
 .page-header {
   position: relative;
-  background-image: url(/public/home-img/title-banner-invert.webp);
+  background-image: url(/home-img/title-banner-invert.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -345,7 +345,7 @@ a {
     border: black 2px solid;
     padding: 10px;
     border-radius: 50px;
-    background-image: url(/public/home-img/button-invert.webp);
+    background-image: url(/home-img/button-invert.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -362,7 +362,7 @@ a {
   }
 
   button:hover {
-    background-image: url(/public/home-img/button-invert.webp);
+    background-image: url(/home-img/button-invert.webp);
     color: white;
   }
 
@@ -402,7 +402,7 @@ a {
 }
 
 .galleryCard {
-  background-image: url(/public/home-img/gallery-card-web.webp);
+  background-image: url(/home-img/gallery-card-web.webp);
   background-size: cover;
   border-radius: 28px;
   box-shadow: 10px 11px 4px -2px rgba(0, 0, 0, 0.75);
@@ -454,7 +454,7 @@ a {
 
 .project-details-header {
   position: relative;
-  background-image: url(/public/home-img/title-banner.webp);
+  background-image: url(/home-img/title-banner.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -477,7 +477,7 @@ a {
     border: black 2px solid;
     padding: 10px;
     border-radius: 50px;
-    background-image: url(/public/home-img/button-invert.webp);
+    background-image: url(/home-img/button-invert.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -494,7 +494,7 @@ a {
   }
 
   button:hover {
-    background-image: url(/public/home-img/button.webp);
+    background-image: url(/home-img/button.webp);
     color: rgb(0, 0, 0);
   }
 }
@@ -571,7 +571,7 @@ a {
     border: black 2px solid;
     padding: 10px;
     border-radius: 15px;
-    background-image: url(/public/home-img/button.webp);
+    background-image: url(/home-img/button.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -590,7 +590,7 @@ a {
   }
   
   a:hover {
-    background-image: url(/public/home-img/button-invert.webp);
+    background-image: url(/home-img/button-invert.webp);
     color: white;
     transform: scale(1.05);
     box-shadow: 0 8px 12px rgba(255, 255, 255, 0.2);
@@ -649,7 +649,7 @@ a {
     border: black 2px solid;
     padding: 10px;
     border-radius: 15px;
-    background-image: url(/public/home-img/button.webp);
+    background-image: url(/home-img/button.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -668,7 +668,7 @@ a {
   }
   
   a:hover {
-    background-image: url(/public/home-img/button-invert.webp);
+    background-image: url(/home-img/button-invert.webp);
     color: white;
     transform: scale(1.05);
     box-shadow: 0 8px 12px rgba(255, 255, 255, 0.2);
@@ -718,6 +718,67 @@ a {
   margin-top: 20px;
 }
 
+/* Modal */
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.modal-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.modal-content img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.modal-close-button {
+  color: #333;
+  position: absolute;
+  padding-bottom: 1px;
+  top: 20px;
+  right: 20px;
+  border: black 2px solid;
+  border-radius: 50px;
+  background-image: url(/home-img/button.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "DM Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  transition: ease-in 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-close-button:hover {
+  background-image: url(/home-img/button-invert.webp);
+  color: #ffffff;
+}
+
+
 /* Contact page */
 
 .about {
@@ -736,7 +797,7 @@ a {
 
 .footer {
     position: relative;
-    background-image: url(/public/home-img/title-banner-invert.webp);
+    background-image: url(/home-img/title-banner-invert.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -927,7 +988,7 @@ a {
 
   .page-header {
     position: relative;
-    background-image: url(/public/home-img/title-banner-invert.webp);
+    background-image: url(/home-img/title-banner-invert.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

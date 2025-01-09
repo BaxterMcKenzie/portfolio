@@ -23,7 +23,79 @@
       "/img/design/pink-ribbon.webp",
       "/img/design/kinetic-cup-cake.webp"
     ]
-  },  
+  },
+  {
+    "id": "brazen-designs",
+    "project": "Brazen Designs",
+    "cover_art": "/img/design/joe-1.webp",
+    "description": "At Brazen Clothing, I have been working as a graphic designer for over 7 years, specializing in creating garment designs for screen printing and embroidery. My role involves collaborating with clients via email and phone to transform their ideas into high-quality designs, working with spot colors, and meeting tight deadlines. I also coordinate with screen printers and embroiderers to ensure every project is completed on time and to the highest standard. This dynamic role allows me to balance creativity with technical precision, contributing to the success of custom apparel projects. Below are a few of my favorite designs.",
+    "about": "Freelance Graphic Design",
+    "role": "Designer",
+    "tools": "CorelDraw & Photoshop",
+    "description2": "<strong>Wel Lift Crew:</strong> Wel Lift Crew is a gym/streetwear apparel company. The client wanted that classic faded 90s style, inspired by old-school basketball and sports t-shirts. They provided a few reference images to guide the design process. This project was particularly enjoyable for me, as I have a deep appreciation for that design style. It also provided a valuable opportunity to work across several different design programs. Both the client and I were thrilled with the final result.",
+    "mockups2": [
+      "/img/design/joe-1.webp",
+      "/img/design/joe-2.webp"
+    ],
+    "description3": "<strong>Signal: </strong>Signal is a cyber security company that approached Brazen with a request for something 'nerdy' in design. I’d call myself a nerd, but this was a different kind of nerdy. The first design features a ball representing global security, with binary code spelling out 'Signal.' The second design symbolizes their ability to secure cloud storage, with rain made of binary code illustrating their tagline, 'Taking on the World from NZ.' Although the client initially wanted just one design, they were so pleased with both that they decided to print them both.",
+    "mockups3": [
+      "/img/design/signal-1.webp",
+      "/img/design/signal-2.webp",
+      "/img/design/signal-4.webp",
+      "/img/design/signal-3.webp"
+    ],
+    "description4": "<strong>Aoraki: </strong>One day, the client came to me with a photo of a crane he had taken and asked if we could print it. I took on the challenge of redrawing the photo into a printable vector file. After five hours of work, this was the final result. The design turned out so well that it became the standard print for Aoraki.",
+    "mockups4": [
+      "/img/design/aoraki-1.webp",
+      "/img/design/aoraki-2.webp"
+    ],
+    "description5": "<strong>Gipsy Kitchen: </strong>Gipsy Kitchen is a fantastic client to work with. They have a signature Gipsy character, and every time they need a new design, they simply ask for 'Gipsy plus pop culture reference.' This particular design was 'Gipsy plus Motorhead,' which was a lot of fun to create. It was a great lesson in matching the tones of two distinct styles and merging them into one cohesive graphic.",
+    "mockups5": [
+      "/img/design/gipsy-2.webp",
+      "/img/design/gipsy-3.webp"
+    ],
+    "description6": "<strong>Mauri Construction: </strong>Mauri Construction came to me with a simple yet meaningful idea—starting a building company named after his Blue Heeler dog. I chose a bold, straight-edge font to convey strength and solidity, which felt fitting for a building company. We experimented with a few dog designs, and this one became our favorite: a dog with a hammer in its mouth, which perfectly captures the essence of a Kiwi builder.",
+    "mockups6": [
+      "/img/design/mauri-1.webp",
+      "/img/design/mauri-2.webp"
+    ],
+    "description7": "<strong>F45 Gym: </strong>F45 Gym is a regular client, as they host multiple competitions each year. Typically, they send me a few ideas—such as animals and color schemes—and I take it from there, creating designs that align with their vision. These are some of my favorite designs I've created for them, each one reflecting the energy and spirit of their competitions.",
+    "mockups7": [
+      "/img/design/f45-1.webp",
+      "/img/design/f45-2.webp",
+      "/img/design/f45-4.webp",
+      "/img/design/f45-3.webp",
+      "/img/design/f45-5.webp",
+      "/img/design/f45-6.webp"
+    ],
+    "description8": "<strong>Fades & Sexy Babes: </strong>Crispy Fades & Sexy Babes came to Brazen looking for something different from the typical barber logo. They provided a few reference images, and together we came up with a unique design that stood out from the crowd. The client was extremely happy with the final result, and it perfectly captured their bold and distinctive brand identity.",
+    "mockups8": [
+      "/img/design/crispy-1.webp",
+      "/img/design/crispy-2.webp"
+    ],
+    "description9": "<strong>Little Sprig: </strong>Little Sprig Seatoun wanted to refresh their shirts with a new design, specifically focusing on the back of the shirt. They asked if I could incorporate something that represented Seatoun. We decided on the iconic little island just off Seatoun, as it's easily recognizable and makes for a striking design on the back of the shirt.",
+    "mockups9": [
+      "/img/design/lil-sprig-1.webp",
+      "/img/design/lil-sprig-3.webp"
+    ],
+    "description10": "<strong>Manawa Tahi: </strong>Manawa Tahi, which translates to 'One Heart' in Māori, is a slow pitch team that wanted a design reflecting the sport, teamwork, and togetherness. The brief was clear and straightforward, with few changes needed throughout the process. The design came together seamlessly, and both the client and the team were thrilled with the final result, perfectly capturing the spirit of unity and camaraderie.",
+    "mockups10": [
+      "/img/design/manawa-tahi-1.webp",
+      "/img/design/manawa-tahi-2.webp"
+    ]
+  },
+  {
+    "id": "wedding",
+    "project": "Wedding",
+    "cover_art": "/img/design/wed-board.webp",
+    "description": "For our wedding, my partner and I collaborated on designing the invitation, event board, and QR code cards. The invitation set the tone for our celebration, reflecting our personal style and the joy of the occasion. The event board served as a central point for guests, guiding them through key details of the day.One of the highlights was the QR code cards, which I designed to encourage guests to capture and share their moments from the wedding. The QR code allowed guests to easily upload their photos to a shared album, making it a fun and interactive way to collect memories from our special day. This project was not only a labor of love but also a great way to showcase our creativity and teamwork as a couple.",
+    "role": "Designer",
+    "tools": "CorelDraw & Photoshop",
+    "mockups": [
+      "/img/design/wed-board.webp",
+      "/img/design/wed-invite.webp"
+    ]
+  },
     {
         "id": "tipu-garden-management-design",
         "project": "Tipu Garden Management",
@@ -40,63 +112,16 @@
         ]
       },
       {
-        "id": "brazen-designs",
-        "project": "Brazen Designs",
-        "cover_art": "/img/design/joe-1.webp",
-        "description": "At Brazen Clothing, I have been working as a graphic designer for over 7 years, specializing in creating garment designs for screen printing and embroidery. My role involves collaborating with clients via email and phone to transform their ideas into high-quality designs, working with spot colors, and meeting tight deadlines. I also coordinate with screen printers and embroiderers to ensure every project is completed on time and to the highest standard. This dynamic role allows me to balance creativity with technical precision, contributing to the success of custom apparel projects. Below are a few of my favorite designs.",
+        "id": "business-card",
+        "project": "Business Cards",
+        "cover_art": "/img/design/finn-business-card.webp",
+        "description": "I've designed business cards for small businesses, showcasing how a well-crafted card can make a lasting first impression. For Fionnbharr Sherry, a photographer, I featured his favorite photo with a clean, minimalistic design to reflect his style. For Rachel of EUNOIA Cosmetic Tattoos, I created a card that highlights her in-house eyebrow tattooing services, complete with a logo I designed to represent her brand",
         "about": "Freelance Graphic Design",
         "role": "Designer",
-        "tools": "CorelDraw & Photoshop",
-        "description2": "<strong>Wel Lift Crew:</strong> Wel Lift Crew is a gym/streetwear apparel company. The client wanted that classic faded 90s style, inspired by old-school basketball and sports t-shirts. They provided a few reference images to guide the design process. This project was particularly enjoyable for me, as I have a deep appreciation for that design style. It also provided a valuable opportunity to work across several different design programs. Both the client and I were thrilled with the final result.",
-        "mockups2": [
-          "/img/design/joe-1.webp",
-          "/img/design/joe-2.webp"
-        ],
-        "description3": "<strong>Signal: </strong>Signal is a cyber security company that approached Brazen with a request for something 'nerdy' in design. I’d call myself a nerd, but this was a different kind of nerdy. The first design features a ball representing global security, with binary code spelling out 'Signal.' The second design symbolizes their ability to secure cloud storage, with rain made of binary code illustrating their tagline, 'Taking on the World from NZ.' Although the client initially wanted just one design, they were so pleased with both that they decided to print them both.",
-        "mockups3": [
-          "/img/design/signal-1.webp",
-          "/img/design/signal-2.webp",
-          "/img/design/signal-4.webp",
-          "/img/design/signal-3.webp"
-        ],
-        "description4": "<strong>Aoraki: </strong>One day, the client came to me with a photo of a crane he had taken and asked if we could print it. I took on the challenge of redrawing the photo into a printable vector file. After five hours of work, this was the final result. The design turned out so well that it became the standard print for Aoraki.",
-        "mockups4": [
-          "/img/design/aoraki-1.webp",
-          "/img/design/aoraki-2.webp"
-        ],
-        "description5": "<strong>Gipsy Kitchen: </strong>Gipsy Kitchen is a fantastic client to work with. They have a signature Gipsy character, and every time they need a new design, they simply ask for 'Gipsy plus pop culture reference.' This particular design was 'Gipsy plus Motorhead,' which was a lot of fun to create. It was a great lesson in matching the tones of two distinct styles and merging them into one cohesive graphic.",
-        "mockups5": [
-          "/img/design/gipsy-2.webp",
-          "/img/design/gipsy-3.webp"
-        ],
-        "description6": "<strong>Mauri Construction: </strong>Mauri Construction came to me with a simple yet meaningful idea—starting a building company named after his Blue Heeler dog. I chose a bold, straight-edge font to convey strength and solidity, which felt fitting for a building company. We experimented with a few dog designs, and this one became our favorite: a dog with a hammer in its mouth, which perfectly captures the essence of a Kiwi builder.",
-        "mockups6": [
-          "/img/design/mauri-1.webp",
-          "/img/design/mauri-2.webp"
-        ],
-        "description7": "<strong>F45 Gym: </strong>F45 Gym is a regular client, as they host multiple competitions each year. Typically, they send me a few ideas—such as animals and color schemes—and I take it from there, creating designs that align with their vision. These are some of my favorite designs I've created for them, each one reflecting the energy and spirit of their competitions.",
-        "mockups7": [
-          "/img/design/f45-1.webp",
-          "/img/design/f45-2.webp",
-          "/img/design/f45-4.webp",
-          "/img/design/f45-3.webp",
-          "/img/design/f45-5.webp",
-          "/img/design/f45-6.webp"
-        ],
-        "description8": "<strong>Fades & Sexy Babes: </strong>Crispy Fades & Sexy Babes came to Brazen looking for something different from the typical barber logo. They provided a few reference images, and together we came up with a unique design that stood out from the crowd. The client was extremely happy with the final result, and it perfectly captured their bold and distinctive brand identity.",
-        "mockups8": [
-          "/img/design/crispy-1.webp",
-          "/img/design/crispy-2.webp"
-        ],
-        "description9": "<strong>Little Sprig: </strong>Little Sprig Seatoun wanted to refresh their shirts with a new design, specifically focusing on the back of the shirt. They asked if I could incorporate something that represented Seatoun. We decided on the iconic little island just off Seatoun, as it's easily recognizable and makes for a striking design on the back of the shirt.",
-        "mockups9": [
-          "/img/design/lil-sprig-1.webp",
-          "/img/design/lil-sprig-3.webp"
-        ],
-        "description10": "<strong>Manawa Tahi: </strong>Manawa Tahi, which translates to 'One Heart' in Māori, is a slow pitch team that wanted a design reflecting the sport, teamwork, and togetherness. The brief was clear and straightforward, with few changes needed throughout the process. The design came together seamlessly, and both the client and the team were thrilled with the final result, perfectly capturing the spirit of unity and camaraderie.",
-        "mockups10": [
-          "/img/design/manawa-tahi-1.webp",
-          "/img/design/manawa-tahi-2.webp"
+        "tools": "CorelDraw",
+        "mockups": [
+          "/img/design/rachel-business-card.webp",
+          "/img/design/finn-business-card.webp"
         ]
       }
   ]

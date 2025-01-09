@@ -3,13 +3,33 @@ import { useParams } from "react-router-dom";
 import ProjectDetailsHeader from "../components/ProjectDetailsHeader";
 
 const ProjectDetails = () => {
-  const { projectId, type } = useParams(); // Get both projectId and type from the URL
+  const { projectId, type } = useParams();
   const [project, setProject] = React.useState(null);
   const [loading, setLoading] = React.useState(true);
+  const [isModalOpen, setIsModalOpen] = React.useState(false);
+  const [selectedImage, setSelectedImage] = React.useState(null);
 
   React.useEffect(() => {
-    // Determine the correct JSON file based on the type
-    const jsonFile = type === "design" ? "/DESIGN.json" : "/WEB.json";
+    let jsonFile;
+    switch (type) {
+      case "design":
+        jsonFile = "/DESIGN.json";
+        break;
+      case "web":
+        jsonFile = "/WEB.json";
+        break;
+      case "illustration":
+        jsonFile = "/ILLUSTRATION.json";
+        break;
+      case "personal":
+        jsonFile = "/PERSONAL.json";
+        break;
+      default:
+        console.error("Invalid type provided");
+        return;
+    }
+
+    console.log("Fetching data from:", jsonFile); // Debugging log
 
     fetch(jsonFile)
       .then((response) => {
@@ -19,7 +39,9 @@ const ProjectDetails = () => {
         return response.json();
       })
       .then((data) => {
+        console.log("Fetched data:", data); // Debugging log
         const foundProject = data.find((proj) => proj.id === projectId);
+        console.log("Found project:", foundProject); // Debugging log
         setProject(foundProject);
         setLoading(false);
       })
@@ -27,13 +49,22 @@ const ProjectDetails = () => {
         console.error("Error fetching the project data:", error);
         setLoading(false);
       });
-  }, [projectId, type]); // Add `type` to dependencies to refetch if type changes
+  }, [projectId, type]);
 
   if (loading) return <div>Loading...</div>;
   if (!project) return <div>Project not found.</div>;
 
+  const openModal = (image) => {
+    setSelectedImage(image);
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+    setSelectedImage(null);
+  };
+
   const renderSection = (description, mockups, key) => {
-    // Skip rendering if description and mockups are both missing
     if (!description && (!mockups || mockups.length === 0)) return null;
 
     return (
@@ -50,7 +81,13 @@ const ProjectDetails = () => {
         {mockups && mockups.length > 0 && (
           <div className="mockup-container">
             {mockups.map((mockup, index) => (
-              <img key={index} src={mockup} alt={`Mockup ${index + 1}`} />
+              <img
+                key={index}
+                src={mockup}
+                alt={`Mockup ${index + 1}`}
+                onClick={() => openModal(mockup)}
+                style={{ cursor: "pointer" }}
+              />
             ))}
           </div>
         )}
@@ -82,7 +119,6 @@ const ProjectDetails = () => {
           </p>
           <br />
           <div className="button-holder">
-            {/* Conditionally render Visit Site button */}
             {project.site_link && (
               <a
                 href={project.site_link}
@@ -92,7 +128,6 @@ const ProjectDetails = () => {
                 Visit Site
               </a>
             )}
-            {/* Conditionally render Git Repo button */}
             {project.git_repo && (
               <a
                 href={project.git_repo}
@@ -102,7 +137,6 @@ const ProjectDetails = () => {
                 Git Repo
               </a>
             )}
-            {/* Conditionally render Backend Git Repo button */}
             {project.git_repo2 && (
               <a
                 href={project.git_repo2}
@@ -126,6 +160,23 @@ const ProjectDetails = () => {
       {renderSection(project.description8, project.mockups8, "section8")}
       {renderSection(project.description9, project.mockups9, "section9")}
       {renderSection(project.description10, project.mockups10, "section10")}
+
+      {isModalOpen && (
+        <div className="modal" onClick={closeModal}>
+          <div className="modal-content">
+            <button
+              className="modal-close-button"
+              onClick={(e) => {
+                e.stopPropagation();
+                closeModal();
+              }}
+            >
+              &times;
+            </button>
+            <img src={selectedImage} alt="Full view" />
+          </div>
+        </div>
+      )}
 
       <div className="margin"></div>
     </div>

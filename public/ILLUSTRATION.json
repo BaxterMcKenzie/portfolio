@@ -1,0 +1,34 @@
+[
+    {
+        "id": "birthday-poster",
+        "project": "Birthday Poster",
+        "cover_art": "/img/illustration/liam-thumbnail.webp",
+        "description": "For this project, I collaborated with a friend to create a cohesive visual identity for their 30th birthday celebration. The theme was a lively cowboy-inspired hoedown with a playful focus on fried chicken.I designed a poster and banner that captured the rustic charm of the Wild West, blending bold typography, earthy tones, and illustrative elements like cowboy hats, boots, and fried chicken motifs. These designs set the tone for the event, adding personality and excitement. As a last-minute addition, I also created a custom photo album cover to commemorate the celebration. The cover mirrored the event's theme, tying all elements together into a cohesive and memorable design package.This project highlights my ability to adapt quickly to evolving requirements while delivering designs that resonate with the intended audience and theme.",
+        "role": "Designer & Illustrator (Collaborated with Danielle for concept and direction)",
+        "tools": "Illustrator, Photoshop & Procreate",
+        "mockups": [
+          "/img/illustration/liam-dirty-banner.webp",
+          "/img/illustration/liam-dirty-banner-2.webp",
+          "/img/illustration/liam-book-mock.webp",
+          "/img/illustration/liam-book-cover.webp"
+        ]
+      },
+      {
+        "id": "one-off-commissions",
+        "project": "One Off Commissions",
+        "cover_art": "/img/illustration/danny-mock.webp",
+        "description": "This collection showcases a variety of one-off illustrations I’ve created for individuals, each tailored to their unique requests and personal styles. From custom artwork for gifts to designs for personal projects and events, these illustrations represent a wide range of themes and mediums.Each piece was created with careful attention to detail, ensuring that it captured the vision of the person it was made for. Whether it was a whimsical character, a heartfelt portrait, or a playful design for a special occasion, these works highlight my ability to adapt my creative process to meet diverse needs and bring ideas to life.",
+        "role": "Designer & Illustrator",
+        "tools": "Illustrator, Photoshop & Procreate",
+        "mockups": [
+          "/img/illustration/megan.webp",
+          "/img/illustration/megan-mock.webp",
+          "/img/illustration/roan-mock.webp",
+          "/img/illustration/roan.webp",
+          "/img/illustration/danny.webp",
+          "/img/illustration/danny-mock.webp",
+          "/img/illustration/sam-gif.gif",
+          "/img/illustration/sam-gif-mock.gif"
+        ]
+      }
+]
