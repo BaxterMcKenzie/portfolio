@@ -42,5 +42,42 @@
       "/img/personal/midsommar.webp",
       "/img/personal/dead.webp"
     ]
+  },
+  {
+    "id": "alphabet-art",
+    "project": "Alphabet Art",
+    "cover_art": "/img/personal/thumbnail-alphabet.webp",
+    "description": "At the start of 2022, I set a personal challenge to enhance my illustration skills by transitioning from traditional pencil and paper to digital tools like Illustrator, CorelDRAW, Photoshop, and Procreate. I also aimed to improve my ability to incorporate various font styles into my designs. To stay inspired, I chose to work through the alphabet, as it provided a simple yet effective framework for generating ideas and text.",
+    "role": "Designer & Illustrator",
+    "tools": "Illustrator, Photoshop, Procreate & CorelDraw",
+    "mockups": [
+      "/img/personal/a.webp",
+      "/img/personal/b.webp",
+      "/img/personal/c.webp",
+      "/img/personal/d.webp",
+      "/img/personal/e.webp",
+      "/img/personal/f.webp",
+      "/img/personal/f2.webp",
+      "/img/personal/g.webp",
+      "/img/personal/h.webp",
+      "/img/personal/i.webp",
+      "/img/personal/j.webp",
+      "/img/personal/k.webp",
+      "/img/personal/l.webp",
+      "/img/personal/m.webp",
+      "/img/personal/n.webp",
+      "/img/personal/o.webp",
+      "/img/personal/p.webp",
+      "/img/personal/q.webp",
+      "/img/personal/r.webp",
+      "/img/personal/s.webp",
+      "/img/personal/t.webp",
+      "/img/personal/u.webp",
+      "/img/personal/v.webp",
+      "/img/personal/w.webp",
+      "/img/personal/x.webp",
+      "/img/personal/y.webp",
+      "/img/personal/z.webp"
+    ]
   }
 ]

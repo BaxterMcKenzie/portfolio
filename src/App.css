@@ -194,22 +194,22 @@ a {
 .modal-content a::after {
   content: '';
   position: absolute;
-  left: 25%; /* Center the 50% wide underline */
-  bottom: 1px;
-  width: 50%; /* Set the underline width to 50% */
+  left: 50%; 
+  bottom: -2px; 
+  width: 90%;
   height: 3px;
   background-color: white;
-  transform: scaleX(0); /* Start as invisible */
-  transform-origin: left; /* Animate from left to right */
-  transition: transform 0.5s ease-in-out; /* Animate scaling */
+  transform: translateX(-50%) scaleX(0); 
+  transform-origin: center;
+  transition: transform 0.5s ease-in-out;
 }
 
 .modal-content a:hover::after {
-  transform: scaleX(1); /* Animate to full width on hover */
+  transform: translateX(-50%) scaleX(1);
 }
 
 .modal-content .active::after {
-  transform: scaleX(1); /* Keep underline visible for active links */
+  transform: translateX(-50%) scaleX(1);
 }
 
 .modal-content .active:nth-child(2),
@@ -418,10 +418,11 @@ a {
 
 .gallery-art {
   width: 100%;
-  height: 40vh;
+  aspect-ratio: 1 / 1;
   background-size: cover;
   background-position: center;
   border-radius: 22px;
+  overflow: hidden;
 }
 
 .galleryContainer {
@@ -521,12 +522,13 @@ a {
   grid-template-columns: 2fr 2fr;
   gap: 10px;
   width: 80%;
-  align-items: stretch; /* Ensure equal height alignment */
+  align-items: stretch;
 }
 
 .project-main-img {
-  object-fit: cover;
-  height: 100%; /* Image should take up 100% of its container's height */
+  object-fit: contain;
+  height: 100%;
+  background-color: #333;
   border-radius: 20px;
   box-shadow: -3px 3px 8px 0px rgba(31,30,30,0.75);
 -webkit-box-shadow: -3px 3px 8px 0px rgba(31,30,30,0.75);
@@ -712,6 +714,16 @@ a {
   }
 }
 
+.mockup-container.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px; /* Adjust the gap as needed */
+}
+
+.project-details-container.grid-3 {
+  margin-bottom: 32px; /* Optional spacing for the section */
+}
+
 .button-holder {
   display: flex;
   gap: 10px;
@@ -738,6 +750,7 @@ a {
   width: 100%;
   height: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;

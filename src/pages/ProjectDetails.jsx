@@ -66,34 +66,39 @@ const ProjectDetails = () => {
 
   const renderSection = (description, mockups, key) => {
     if (!description && (!mockups || mockups.length === 0)) return null;
+    
+  const isAlphabetArt = projectId === "alphabet-art";
 
-    return (
-      <div className="project-details-container" key={key}>
-        {description && (
-          <div className="project-multi-container-background">
-            <div className="project-multi-container">
-              <div className="project-description-multi">
-                <p dangerouslySetInnerHTML={{ __html: description }}></p>
-              </div>
+  return (
+    <div
+      className={`project-details-container ${isAlphabetArt ? "grid-3" : ""}`}
+      key={key}
+    >
+      {description && (
+        <div className="project-multi-container-background">
+          <div className="project-multi-container">
+            <div className="project-description-multi">
+              <p dangerouslySetInnerHTML={{ __html: description }}></p>
             </div>
           </div>
-        )}
-        {mockups && mockups.length > 0 && (
-          <div className="mockup-container">
-            {mockups.map((mockup, index) => (
-              <img
-                key={index}
-                src={mockup}
-                alt={`Mockup ${index + 1}`}
-                onClick={() => openModal(mockup)}
-                style={{ cursor: "pointer" }}
-              />
-            ))}
-          </div>
-        )}
-      </div>
-    );
-  };
+        </div>
+      )}
+      {mockups && mockups.length > 0 && (
+        <div className={`mockup-container ${isAlphabetArt ? "grid-3" : ""}`}>
+          {mockups.map((mockup, index) => (
+            <img
+              key={index}
+              src={mockup}
+              alt={`Mockup ${index + 1}`}
+              onClick={() => openModal(mockup)}
+              style={{ cursor: "pointer" }}
+            />
+          ))}
+        </div>
+      )}
+    </div>
+  );
+};
 
   return (
     <div className="project-details-container">
