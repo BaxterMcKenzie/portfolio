@@ -7,11 +7,21 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
+  // Function to scroll to the top of the page
+  const scrollToTop = (e) => {
+    e.preventDefault(); // Prevent the default anchor behavior
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth", // Optional: adds smooth scrolling effect
+    });
+  };
+
   return (
     <div className="footer">
       <div className="footer-backdrop">
-        <a href="/">
+        <a href="/" onClick={scrollToTop}>
           <img className="b-logo" src="/home-img/b.svg" alt="B logo" />
+          <p className="scroll-to-top"><span>SCROLL</span><span>TO TOP</span></p>
         </a>
         <div className="name-social-footer">
           <p>Baxter Mckenzie</p>

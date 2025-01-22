@@ -15,16 +15,14 @@ const Header = () => {
   return (
     <div className='header'>
       <a href="/">
-       <img className="b-logo" src="/home-img/b.svg" alt="B logo" />
+        <img className="b-logo" src="/home-img/b.svg" alt="B logo" />
       </a>
       <div className='nav-links'>
         <NavLink to="/" activeclassname="active">Home</NavLink>
         <NavLink to="/web" activeclassname="active">Web</NavLink>
-
         <NavLink to="/design" activeclassname="active">Design</NavLink>
         <NavLink to="/illustration" activeclassname="active">Illustration</NavLink>
         <NavLink to="/personal" activeclassname="active">Personal</NavLink>
-        
         <NavLink to="/contact" activeclassname="active">Contact</NavLink>
       </div>
       <div className="hamburger" onClick={openModal}>

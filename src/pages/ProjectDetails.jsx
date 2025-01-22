@@ -66,39 +66,64 @@ const ProjectDetails = () => {
 
   const renderSection = (description, mockups, key) => {
     if (!description && (!mockups || mockups.length === 0)) return null;
-    
-  const isAlphabetArt = projectId === "alphabet-art";
 
-  return (
-    <div
-      className={`project-details-container ${isAlphabetArt ? "grid-3" : ""}`}
-      key={key}
-    >
-      {description && (
-        <div className="project-multi-container-background">
-          <div className="project-multi-container">
-            <div className="project-description-multi">
-              <p dangerouslySetInnerHTML={{ __html: description }}></p>
+    const isAlphabetArt = projectId === "alphabet-art";
+
+    return (
+      <div
+        className={`project-details-container ${isAlphabetArt ? "grid-3" : ""}`}
+        key={key}
+      >
+        {description && (
+          <div className="project-multi-container-background">
+            <div className="project-multi-container">
+              <div className="project-description-multi">
+                <p dangerouslySetInnerHTML={{ __html: description }}></p>
+              </div>
             </div>
           </div>
-        </div>
-      )}
-      {mockups && mockups.length > 0 && (
-        <div className={`mockup-container ${isAlphabetArt ? "grid-3" : ""}`}>
-          {mockups.map((mockup, index) => (
-            <img
-              key={index}
-              src={mockup}
-              alt={`Mockup ${index + 1}`}
-              onClick={() => openModal(mockup)}
-              style={{ cursor: "pointer" }}
-            />
-          ))}
-        </div>
-      )}
-    </div>
-  );
-};
+        )}
+        {mockups && mockups.length > 0 && (
+          <div className={`mockup-container ${isAlphabetArt ? "grid-3" : ""}`}>
+            {mockups.map((mockup, index) => (
+              <img
+                key={index}
+                src={mockup}
+                alt={`Mockup ${index + 1}`}
+                onClick={() => openModal(mockup)}
+                style={{ cursor: "pointer" }}
+              />
+            ))}
+          </div>
+        )}
+      </div>
+    );
+  };
+
+  const renderYearSection = (year, displayImage, key) => {
+    if (!year && (!displayImage || displayImage.length === 0)) return null;
+  
+    const isInktober = projectId === "inktober"; // Check if it's Inktober
+  
+    return (
+      <div className={`project-details-container ${isInktober ? "grid-3" : ""}`} key={key}>
+        <h2>{year}</h2>
+        {displayImage && displayImage.length > 0 && (
+          <div className={`mockup-container ${isInktober ? "grid-3" : ""}`}>
+            {displayImage.map((image, index) => (
+              <img
+                key={index}
+                src={image}
+                alt={`Image ${index + 1}`}
+                onClick={() => openModal(image)}
+                style={{ cursor: "pointer" }}
+              />
+            ))}
+          </div>
+        )}
+      </div>
+    );
+  };
 
   return (
     <div className="project-details-container">
@@ -165,6 +190,13 @@ const ProjectDetails = () => {
       {renderSection(project.description8, project.mockups8, "section8")}
       {renderSection(project.description9, project.mockups9, "section9")}
       {renderSection(project.description10, project.mockups10, "section10")}
+
+      {/* Conditional Year Sections */}
+      {renderYearSection(project.year2, project.displayImage2, "year-section2")}
+      {renderYearSection(project.year3, project.displayImage3, "year-section3")}
+      {renderYearSection(project.year4, project.displayImage4, "year-section4")}
+      {renderYearSection(project.year5, project.displayImage5, "year-section5")}
+      {renderYearSection(project.year6, project.displayImage6, "year-section6")}
 
       {isModalOpen && (
         <div className="modal" onClick={closeModal}>
