@@ -180,5 +180,36 @@
       "/img/personal/1420.webp",
       "/img/personal/1520.webp"
     ]
+  },
+  {
+    "id": "one-off-bits",
+    "project": "One Off Bits",
+    "cover_art": "/img/personal/gdi2.webp",
+    "description": "This collection features a variety of one-off pieces that don't have a dedicated category but still deserve a spotlight. It's a blend of illustration and design, showcasing creativity, experimentation, and versatility. Each piece brings something unique to the table, highlighting different styles and approaches that stand out on their own.",
+    "role": "Designer & Illustrator",
+    "tools": "Illustrator, Photoshop,CorelDraw & Procreate",
+    "mockups": [
+      "/img/personal/letters.webp",
+      "/img/personal/no-slow.webp",
+      "/img/personal/animals.webp",
+      "/img/personal/book-club.webp",
+      "/img/personal/face-punch.webp",
+      "/img/personal/fwog.webp",
+      "/img/personal/good-vibes-1.webp",
+      "/img/personal/heyo.webp",
+      "/img/personal/karate-guy.webp",
+      "/img/personal/ski-guy.webp",
+      "/img/personal/line-blend.webp",
+      "/img/personal/lover-diggers.webp",
+      "/img/personal/mlady.webp",
+      "/img/personal/rotating-letters.webp",
+      "/img/personal/sonic-knuckles.webp",
+      "/img/personal/squishy.webp",
+      "/img/personal/takeaway.webp",
+      "/img/personal/tombi.webp",
+      "/img/personal/trunks.webp",
+      "/img/personal/wario.webp",
+      "/img/personal/wolverine.webp"
+    ]
   }
 ]
