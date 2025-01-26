@@ -320,7 +320,7 @@ a {
   position: absolute;
   top: 80%;
   left: 26%;
-  z-index: 10000;
+  z-index: 900;
   font-family: 'DM Sans', sans-serif;
   font-weight: 200;
   font-style: italic;
@@ -832,16 +832,40 @@ a {
 
 /* Contact page */
 
+.about-body-container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+
+  .name {
+    margin-top: 40px;
+    margin-left: 40px;
+    position:absolute;
+  }
+
+  .about-background-image {
+    position: absolute;
+    background-image: url(/home-img/home-background-01.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 13%;
+    z-index: 10;
+  }
+
+}
+
 .about {
   position: relative;
-  height: 400px;
   width: 50%;
-  z-index: 2000;
+  z-index: 800;
   padding: 30px;
   font-family: "DM Sans", sans-serif;
   line-height: 1.7rem;
   font-weight: 600;
   margin-left: 220px;
+  text-align: left;
 }
 
 /* Footer */
@@ -950,7 +974,7 @@ a {
 
   .about {
     position: relative;
-    height: 400px;
+    height: 100%;
     width: 60%;
     z-index: 2000;
     padding: 30px;
@@ -1007,14 +1031,13 @@ a {
 
   .about {
     position: relative;
-    height: 400px;
     width: 80%;
-    z-index: 2000;
+    z-index: 800;
     padding: 30px;
     font-family: "DM Sans", sans-serif;
     line-height: 1.6rem;
     font-weight: 600;
-    margin-left: 80px;
+    margin-left: 50px;
   }
 
   .mockup-container {
@@ -1087,7 +1110,14 @@ a {
 
   .footer-backdrop {
     text-align: center;
+    width: 325px;
   }
+
+.footer {
+  .scroll-to-top {
+    left: 5px;
+  }
+}
 
   .page-header {
     position: relative;
@@ -1095,7 +1125,7 @@ a {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 300px;
+    height: 150px;
     padding: 30px;
   
     h1 {
@@ -1105,7 +1135,6 @@ a {
       font-size: 10vh;
       -webkit-text-stroke: 1px rgb(255, 255, 255);
       text-stroke: 1px rgb(255, 255, 255);
-      margin-top: 30px;
     }
   }
 

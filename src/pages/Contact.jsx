@@ -6,8 +6,8 @@ const Contact = () => {
     <>
       <PageHeader title="Contact" image_url="/home-img/title-banner-web.webp" />
       <div className="home">
-        <div className="home-body-container">
-          <div className="background-image"></div>
+        <div className="about-body-container">
+          <div className="about-background-image"></div>
           <div className="about">
             <p>
               I’m a graphic designer with 7 years of experience, driven by a
@@ -32,7 +32,7 @@ const Contact = () => {
             </p>
             <div
               className="contact-div"
-              style={{ textAlign: "left", padding: "20px" }}
+              style={{ textAlign: "left", padding: "0px" }}
             >
               <h2>Contact Me</h2>
               <p style={{ margin: "10px 0" }}>
