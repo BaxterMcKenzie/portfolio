@@ -40,7 +40,7 @@ const Header = () => {
             <NavLink to="/web" onClick={closeModal}>Web</NavLink>
             <NavLink to="/design" onClick={closeModal}>Design</NavLink>
             <NavLink to="/illustration" onClick={closeModal}>Illustration</NavLink>
-            <NavLink to="/personal" onClick={closeModal}>Personal</NavLink>
+            {/* <NavLink to="/personal" onClick={closeModal}>Personal</NavLink> */}
             <NavLink to="/contact" onClick={closeModal}>Contact</NavLink>
           </div>
         </div>

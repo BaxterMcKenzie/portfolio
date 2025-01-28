@@ -1088,14 +1088,6 @@ a {
 
 @media screen and (max-width: 600px) {
 
-  .page-header {
-    height: 100%;
-  
-    h1 {
-      font-size: 80px;
-    }
-  }
-
   .gallery {
     padding: 20px; /* Reduce padding on mobile */
     grid-template-columns: repeat(1, 1fr);
@@ -1141,13 +1133,16 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
     height: 150px;
-    padding: 30px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   
     h1 {
       font-family: "DM Sans", sans-serif;
       font-weight: 900;
       color: white;
-      font-size: 10vh;
+      font-size: 55px;
       -webkit-text-stroke: 1px rgb(255, 255, 255);
       text-stroke: 1px rgb(255, 255, 255);
     }
@@ -1168,5 +1163,17 @@ a {
   font-size: 1.3rem;
   margin: 8px 0;
 }
+
+}
+
+@media screen and (max-width: 418px) {
+
+  .project-description {
+
+    h2 {
+      font-size: 26px;
+      padding: 0px;
+    }
+  }
 
 }
