@@ -577,11 +577,9 @@ a {
   -webkit-box-shadow: -3px 3px 8px 0px rgba(31,30,30,0.75);
   -moz-box-shadow: -3px 3px 8px 0px rgba(31,30,30,0.75);
   
-  /* Add animation */
   animation: backgroundScroll 20s linear infinite alternate;
 }
 
-/* Background scroll animation */
 @keyframes backgroundScroll {
   0% {
     background-position: top;
