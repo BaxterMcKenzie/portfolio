@@ -577,7 +577,7 @@ a {
   -webkit-box-shadow: -3px 3px 8px 0px rgba(31,30,30,0.75);
   -moz-box-shadow: -3px 3px 8px 0px rgba(31,30,30,0.75);
   
-  animation: backgroundScroll 20s linear infinite alternate;
+  animation: backgroundScroll 40s linear infinite alternate;
 }
 
 @keyframes backgroundScroll {
@@ -758,7 +758,7 @@ a {
   display: grid;
   width: 80%;
   gap: 10px;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
   margin-top: 10px;
 
   img {

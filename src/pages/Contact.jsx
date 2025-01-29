@@ -4,7 +4,7 @@ import PageHeader from "../components/PageHeader";
 const Contact = () => {
   return (
     <>
-      <PageHeader title="Contact" image_url="/home-img/title-banner-web.webp" />
+      <PageHeader title="Contact" image_url="/home-img/title-banner-personal.webp" />
       <div className="home">
         <div className="about-body-container">
           <div className="about-background-image"></div>
