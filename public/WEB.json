@@ -1,4 +1,23 @@
-[{
+[
+  {
+    "id": "tipu-garden-management",
+    "project": "Tipu Garden",
+    "cover_art": "/img/web/iphone-ipad-pc-tipu.webp",
+    "description": "This project is a responsive gardening company website for Tipu Garden Management, designed to showcase their services, past projects, and customer reviews. The frontend was built using React with a custom design, while the backend is powered by WordPress for content management. The site incorporates custom templates created with PHP, enabling dynamic and tailored content presentation. Key functionalities include SEO optimization using Yoast SEO, e-commerce integration with WooCommerce, and custom forms for user inquiries through Contact Form 7. Secure Custom Fields and ACF to REST API were implemented for advanced data handling, while All-in-One Migration facilitated seamless deployment.",
+    "about": "Yoobee WEB UI/UX 2024",
+    "role": "Full-Stack Developer",
+    "tools": "React, WordPress, PHP, Vite, Yoast SEO, WooCommerce, Contact Form 7, CPT UI, Secure Custom Fields, ACF to REST API, All-in-One Migration",
+    "site_link": "https://tipu-garden-management.vercel.app/#/",
+    "git_repo": "https://github.com/BaxterMcKenzie/tipu-garden-management",
+    "git_repo2": "https://github.com/BaxterMcKenzie/tipu-custom-theme",
+    "mockups": [
+      "/img/web/floating-pc-tipu.webp",
+      "/img/web/floating-laptop-tipu.webp",
+      "/img/web/tablet-tipu.webp",
+      "/img/web/3-phones-tipu.webp"
+    ]
+  },
+  {
     "id": "my-favourite-albums",
     "project": "My Favourite Albums",
     "cover_art": "/img/web/my_favourite_albums.webp",
@@ -82,24 +101,6 @@
       "/img/web/north-island-stays-laptop.webp",
       "/img/web/north-island-stays-desktop-multi.webp",
       "/img/web/north-island-stays-tablet-vert.webp"
-    ]
-  },
-  {
-    "id": "tipu-garden-management",
-    "project": "Tipu Garden",
-    "cover_art": "/img/web/iphone-ipad-pc-tipu.webp",
-    "description": "This project is a responsive gardening company website for Tipu Garden Management, designed to showcase their services, past projects, and customer reviews. The frontend was built using React with a custom design, while the backend is powered by WordPress for content management. The site incorporates custom templates created with PHP, enabling dynamic and tailored content presentation. Key functionalities include SEO optimization using Yoast SEO, e-commerce integration with WooCommerce, and custom forms for user inquiries through Contact Form 7. Secure Custom Fields and ACF to REST API were implemented for advanced data handling, while All-in-One Migration facilitated seamless deployment.",
-    "about": "Yoobee WEB UI/UX 2024",
-    "role": "Full-Stack Developer",
-    "tools": "React, WordPress, PHP, Vite, Yoast SEO, WooCommerce, Contact Form 7, CPT UI, Secure Custom Fields, ACF to REST API, All-in-One Migration",
-    "site_link": "https://tipu-garden-management.vercel.app/#/",
-    "git_repo": "https://github.com/BaxterMcKenzie/tipu-garden-management",
-    "git_repo2": "https://github.com/BaxterMcKenzie/tipu-custom-theme",
-    "mockups": [
-      "/img/web/floating-pc-tipu.webp",
-      "/img/web/floating-laptop-tipu.webp",
-      "/img/web/tablet-tipu.webp",
-      "/img/web/3-phones-tipu.webp"
     ]
   }
 ]

@@ -552,7 +552,7 @@ a {
     font-size: 80px;
     -webkit-text-stroke: 0px rgb(255, 255, 255);
     text-stroke: 0px rgb(255, 255, 255);
-    padding: 20px;
+    padding: 20px 20px 20px 0px;
   }
 }
 
@@ -567,11 +567,28 @@ a {
 .project-main-img {
   object-fit: contain;
   height: 100%;
+  width: 100%;
+  background-image: url(/public/home-img/home-background-01.webp);
+  background-size: cover;
+  background-position: top;
   background-color: #333;
   border-radius: 20px;
   box-shadow: -3px 3px 8px 0px rgba(31,30,30,0.75);
--webkit-box-shadow: -3px 3px 8px 0px rgba(31,30,30,0.75);
--moz-box-shadow: -3px 3px 8px 0px rgba(31,30,30,0.75);
+  -webkit-box-shadow: -3px 3px 8px 0px rgba(31,30,30,0.75);
+  -moz-box-shadow: -3px 3px 8px 0px rgba(31,30,30,0.75);
+  
+  /* Add animation */
+  animation: backgroundScroll 20s linear infinite alternate;
+}
+
+/* Background scroll animation */
+@keyframes backgroundScroll {
+  0% {
+    background-position: top;
+  }
+  100% {
+    background-position: bottom;
+  }
 }
 
 .project-description {
