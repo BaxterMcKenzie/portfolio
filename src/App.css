@@ -55,22 +55,22 @@ a {
 .nav-links a::after {
   content: '';
   position: absolute;
-  left: 0; /* Start from the left */
+  left: 0;
   bottom: 6px;
-  width: 100%; /* Full width for the underline */
+  width: 100%; 
   height: 2px;
   background-color: white;
-  transform: scaleX(0); /* Start invisible */
-  transform-origin: left; /* Ensure it scales from left */
-  transition: transform 0.5s ease-in-out; /* Animate scaling */
+  transform: scaleX(0); 
+  transform-origin: left;
+  transition: transform 0.5s ease-in-out;
 }
 
 .nav-links a:hover::after {
-  transform: scaleX(1); /* Animate to full width on hover */
+  transform: scaleX(1);
 }
 
 .nav-links .active::after {
-  transform: scaleX(1); /* Keep underline visible for active links */
+  transform: scaleX(1);
 }
 
 .nav-links .active:nth-child(1),
@@ -318,8 +318,8 @@ a {
 
 .animated-text {
   position: absolute;
-  top: 80%;
-  left: 26%;
+  top: 65%;
+  left: 27%;
   z-index: 900;
   font-family: 'DM Sans', sans-serif;
   font-weight: 200;
@@ -334,7 +334,33 @@ a {
   transform-origin: left center;
   opacity: 0;
   margin: 10px 0;
+  cursor: pointer;
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
+
+.animated-line:nth-child(1) {
+  font-size: 3rem;
+  color: #33333300;
+  transform-origin: left center;
+  opacity: 0;
+  margin: 10px 0;
+  cursor: default;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.animated-line:hover {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+}
+
+.animated-line:hover:nth-child(1) {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 200;
+}
+
+
 
 
 /* END HOME */
@@ -348,8 +374,9 @@ a {
 .baxter {
   position: relative;
   width: 100%;
-  z-index: 20;
+  z-index: 200;
   margin-left: 6%;
+  border: 5px solid green;
 }
 
 /* COMPONENTS */
@@ -976,8 +1003,8 @@ a {
 
 @media (max-width: 1200px) {
   .animated-text {
-    top: 70%;
-    left: 30%;
+    top: 62%;
+    left: 35%;
     font-size: 1.5rem;
     line-height: 3rem;
   }
@@ -1013,6 +1040,10 @@ a {
 
   .page-header {
     height: 100%;
+
+    h1 {
+      font-size: 7rem;
+    }
   }
 
   .project-description-multi {
@@ -1089,10 +1120,10 @@ a {
   }
 
   .animated-text {
-    top: 55%;
-    left: 35%;
+    top: 50%;
+    left: 40%;
     font-size: 1rem;
-    line-height: 2.5rem;
+    line-height: 2rem;
   }
 
   .animated-line {
@@ -1168,14 +1199,13 @@ a {
 }
 
 .animated-text {
-  top: 35%;
-  left: 40%;
-  font-size: .6rem;
-  line-height: 1rem;
+  top: 34%;
+  left: 45%;
+  line-height: 1.2rem;
 }
 
 .animated-line {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   margin: 8px 0;
 }
 
