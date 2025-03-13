@@ -131,13 +131,17 @@
   {
     "id": "wedding",
     "project": "Wedding",
-    "cover_art": "/img/design/wed-board.webp",
-    "description": "For our wedding, my partner and I collaborated on designing the invitation, event board, and QR code cards. The invitation set the tone for our celebration, reflecting our personal style and the joy of the occasion. The event board served as a central point for guests, guiding them through key details of the day.One of the highlights was the QR code cards, which I designed to encourage guests to capture and share their moments from the wedding. The QR code allowed guests to easily upload their photos to a shared album, making it a fun and interactive way to collect memories from our special day. This project was not only a labor of love but also a great way to showcase our creativity and teamwork as a couple.",
+    "cover_art": "/img/design/wedding-invite.webp",
+    "description": "For our wedding, my partner and I collaborated on designing the invitation, welcome board, and QR code cards. The invitation set the tone for our celebration, reflecting our personal style and the joy of the occasion. The welcome board greeted guests upon arrival, simply directing them upstairs to the venue. One of the highlights was the QR code cards, which I designed to encourage guests to capture and share their moments from the wedding. The QR code allowed guests to easily upload their photos to a shared album, making it a fun and interactive way to collect memories from our special day. This project was not only a labor of love but also a great way to showcase our creativity and teamwork as a couple.",
     "role": "Designer",
     "tools": "CorelDraw & Photoshop",
     "mockups": [
+      "/img/design/wedding-photo-card.webp",
+      "/img/design/wedding-sign.webp",
       "/img/design/wed-board.webp",
+           "/img/design/wedding-invite.webp",
       "/img/design/wed-invite.webp"
+
     ]
   },
     {
