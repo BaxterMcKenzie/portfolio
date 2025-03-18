@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
-const HomeHighlight = () => {
+const HomeGallery = () => {
   const [highlightedProjects, setHighlightedProjects] = useState([]);
 
   // JSON files and the specific project ID you want to highlight
@@ -79,4 +79,4 @@ const HomeHighlight = () => {
   );
 };
 
-export default HomeHighlight;
+export default HomeGallery;

@@ -1,6 +1,6 @@
 import React from "react";
 import AnimatedText from "../animation/AnimatedText";
-import HomeHighlight from "../components/HomeHighlight";
+import HomeGallery from "../components/HomeGallery";
 
 const Home = () => {
   return (
@@ -33,7 +33,7 @@ const Home = () => {
             Get in touch if you’d like to create something together!
           </p>
         </div>
-        <HomeHighlight />
+        <HomeGallery />
       </div>
     </div>
   );
