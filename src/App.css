@@ -285,47 +285,97 @@ a {
 
 /* Home */
 
+.home {
+  position: relative;
+
+  .background-image {
+    height: 100%;
+    width: 13%;
+    position: absolute;
+  
+    img{    
+      border: 5px;
+      height: 100%;
+      width: 100%;
+      border-image-repeat: repeat;
+      object-fit: cover;
+    }
+  }
+}
+
 .home-body-container {
   height: 100vh;
   width: 100%;
+}
+
+.name {
+  padding-top: 40px;
+  margin-left: 40px;
+}
+
+.baxter {
   position: relative;
+  width: 100%;
+  z-index: 200;
+  margin-left: 6%;
+}
 
-  .name {
-    margin-top: 40px;
-    margin-left: 40px;
-    position:absolute;
-  }
+.home-highlight-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding: 0rem 4rem 4rem 4rem;
+  margin-top: 1rem;
 
-  .background-image {
+  h1 {
     position: absolute;
-    background-image: url(/home-img/home-background-01.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    width: 13%;
-    z-index: 10;
+    bottom: 15%;
+    width: 10ch;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    font-size: 36px;
+    -webkit-text-stroke: 0px rgb(255, 255, 255);
+    text-stroke: 0px rgb(255, 255, 255);
+  }
+}
+
+.home-about-gallery {
+
+  .about-home {
+    width: 40%;
+    z-index: 800;
+    padding: 30px;
+    font-family: "DM Sans", sans-serif;
+    line-height: 1.7rem;
+    font-weight: 500;
+    margin-left: 12%;
+    text-align: left;
+    height: 100%;
+    text-align: justify;
+    text-justify: inter-word;
+    color: #333;
+
+    h2 {
+      font-size: 6rem;
+      margin-bottom: 2rem;
+      padding: 0;
+    }
   }
 
 }
 
 /* HOME ANIMATION */
 
-.home-body-container {
-  text-align: center;
-  position: relative;
-}
-
 .animated-text {
-  position: absolute;
-  top: 65%;
-  left: 27%;
-  z-index: 900;
+  z-index: 1000;
   font-family: 'DM Sans', sans-serif;
   font-weight: 200;
   font-style: italic;
   line-height: 2.5rem;
-  transform: translate(-50%, -50%);
+  margin-left: 20%;
+  margin-top: -5%;
 }
 
 .animated-line {
@@ -333,7 +383,7 @@ a {
   color: #333;
   transform-origin: left center;
   opacity: 0;
-  margin: 10px 0;
+  padding: 5px 0;
   cursor: pointer;
   text-decoration: none;
   transition: color 0.3s ease;
@@ -344,7 +394,6 @@ a {
   color: #33333300;
   transform-origin: left center;
   opacity: 0;
-  margin: 10px 0;
   cursor: default;
   text-decoration: none;
   transition: color 0.3s ease;
@@ -359,9 +408,6 @@ a {
   font-family: 'DM Sans', sans-serif;
   font-weight: 200;
 }
-
-
-
 
 /* END HOME */
 
@@ -619,10 +665,10 @@ a {
   background-color: #333;
   border-radius: 20px;
   padding: 30px 80px 30px 30px;
-  height: 100%; /* Make sure it takes the same height as the image */
+  height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* Distributes content evenly */
+  justify-content: space-between;
   box-shadow: -3px 3px 8px 0px rgba(31,30,30,0.75);
 -webkit-box-shadow: -3px 3px 8px 0px rgba(31,30,30,0.75);
 -moz-box-shadow: -3px 3px 8px 0px rgba(31,30,30,0.75);
@@ -633,6 +679,7 @@ a {
     font-size: 18px;
     font-weight: 300;
     line-height: 1.9rem;
+    margin-bottom: 1rem;
   }
 
   h2 {
@@ -710,6 +757,7 @@ a {
     line-height: 1.9rem;
     width: 100%;
     align-items: center;
+    margin-bottom: 1rem;
   }
 
   h2 {
@@ -784,7 +832,7 @@ a {
   display: grid;
   width: 80%;
   gap: 10px;
-  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   margin-top: 10px;
 
   img {
@@ -796,11 +844,11 @@ a {
 .mockup-container.grid-3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 16px; /* Adjust the gap as needed */
+  gap: 16px;
 }
 
 .project-details-container.grid-3 {
-  margin-bottom: 32px; /* Optional spacing for the section */
+  margin-bottom: 32px;
 }
 
 .button-holder {
@@ -1002,14 +1050,12 @@ a {
 
 @media (max-width: 1200px) {
   .animated-text {
-    top: 62%;
-    left: 35%;
-    font-size: 1.5rem;
-    line-height: 3rem;
+    font-size: 1rem;
+    line-height: 1.8rem;
   }
 
   .animated-line {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 }
 
@@ -1030,11 +1076,42 @@ a {
     font-weight: 600;
     margin-left: 120px;
   }
+
+  .home-about-gallery {
+
+    .about-home {
+      width: 70%;
+      z-index: 800;
+      padding: 30px;
+      font-family: "DM Sans", sans-serif;
+      line-height: 1.7rem;
+      font-weight: 400;
+      margin-left: 12%;
+      text-align: left;
+      height: 100%;
+      text-align: justify;
+      text-justify: inter-word;
+  
+      h2 {
+        font-size: 4rem;
+        margin-bottom: 2rem;
+        padding: 0;
+      }
+    }
+  
+  }
 }
+
 
 @media (max-width: 1030px) {
   .gallery {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .home-highlight-gallery {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0rem 2.5rem 2.5rem 2.5rem;
+    margin-top: 1rem;
   }
 
   .page-header {
@@ -1076,6 +1153,11 @@ a {
 
   }
 
+  .name {
+    width: 70%;
+    margin-left: 25px;
+  }
+
   .project-details-main-img-description {
     grid-template-columns: 1fr; /* Ensure a single column layout on mobile */
   }
@@ -1095,7 +1177,7 @@ a {
     display: grid;
     width: 80%;
     gap: 10px;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     margin-top: 10px;
   
     img {
@@ -1119,14 +1201,19 @@ a {
   }
 
   .animated-text {
-    top: 50%;
-    left: 40%;
     font-size: 1rem;
-    line-height: 2rem;
+    line-height: 1rem;
+    margin-left: 15%;
   }
 
   .animated-line {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
+  }
+
+  .home-body-container {
+    height: 60vh;
+    width: 100%;
+
   }
 
 }
@@ -1136,6 +1223,11 @@ a {
   .gallery {
     padding: 20px; /* Reduce padding on mobile */
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .home-highlight-gallery {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0rem 2rem 2rem 2rem;
   }
 
   .galleryCard {
@@ -1198,14 +1290,41 @@ a {
 }
 
 .animated-text {
-  top: 34%;
-  left: 45%;
-  line-height: 1.2rem;
+  line-height: .4rem;
+  margin-left: 10%;
 }
 
 .animated-line {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin: 8px 0;
+}
+
+.home-about-gallery {
+
+  .about-home {
+    width: 80%;
+    z-index: 800;
+    padding: 30px;
+    font-family: "DM Sans", sans-serif;
+    line-height: 1.7rem;
+    font-weight: 400;
+    margin-left: 12%;
+    text-align: left;
+    height: 100%;
+
+    h2 {
+      font-size: 3rem;
+      margin-bottom: 2rem;
+      padding: 0;
+    }
+  }
+
+}
+
+.name {
+  width: 70%;
+  padding-top: 40px;
+  margin-left: 40px;
 }
 
 }

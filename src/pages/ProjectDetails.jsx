@@ -102,11 +102,14 @@ const ProjectDetails = () => {
 
   const renderYearSection = (year, displayImage, key) => {
     if (!year && (!displayImage || displayImage.length === 0)) return null;
-  
+
     const isInktober = projectId === "inktober"; // Check if it's Inktober
-  
+
     return (
-      <div className={`project-details-container ${isInktober ? "grid-3" : ""}`} key={key}>
+      <div
+        className={`project-details-container ${isInktober ? "grid-3" : ""}`}
+        key={key}
+      >
         <h2>{year}</h2>
         {displayImage && displayImage.length > 0 && (
           <div className={`mockup-container ${isInktober ? "grid-3" : ""}`}>
@@ -139,7 +142,7 @@ const ProjectDetails = () => {
           <br />
           <h3>{project.about}</h3>
           <br />
-          <p dangerouslySetInnerHTML={{ __html: project.description }}></p>
+          <p dangerouslySetInnerHTML={{ __html: project.description }} />
           <br />
           <p className="role-tools">
             <strong>Role:</strong> {project.role}
