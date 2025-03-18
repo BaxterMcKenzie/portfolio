@@ -28,7 +28,7 @@ const AnimatedText = () => {
   };
 
   const items = [
-    { text: 'Graphic Designers', path: '/design' },
+    { text: 'Graphic Designers', path: '/designs' },
     { text: 'Graphic Designer', path: '/design' },
     { text: 'Web Developer', path: '/web' },
     { text: 'Web Designer', path: '/web' },
