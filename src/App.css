@@ -600,12 +600,12 @@ a {
   }
 }
 
-/* Project main image & description */
 
 .project-details-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 
   h1 {
     font-family: "DM Sans", sans-serif;
@@ -844,7 +844,7 @@ a {
 .mockup-container.grid-3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
+  gap: 8px;
 }
 
 .project-details-container.grid-3 {
@@ -1118,7 +1118,7 @@ a {
     height: 100%;
 
     h1 {
-      font-size: 7rem;
+      font-size: 5rem;
     }
   }
 
@@ -1177,7 +1177,6 @@ a {
     display: grid;
     width: 80%;
     gap: 10px;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     margin-top: 10px;
   
     img {
@@ -1279,7 +1278,7 @@ a {
       font-family: "DM Sans", sans-serif;
       font-weight: 900;
       color: white;
-      font-size: 55px;
+      font-size: 40px;
       -webkit-text-stroke: 1px rgb(255, 255, 255);
       text-stroke: 1px rgb(255, 255, 255);
     }

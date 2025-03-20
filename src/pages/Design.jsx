@@ -5,7 +5,7 @@ import Gallery from '../components/Gallery';
 const Design = () => {
   return (
     <>
-      <PageHeader title="Design" image_url='/home-img/title-banner-design.webp' />
+      <PageHeader title="Visual Deisgn" image_url='/home-img/title-banner-design.webp' />
       <div className='gallery-container'>
         <Gallery jsonFile="DESIGN.json" cardBackground="/home-img/gallery-card-design.webp" type="design" />
       </div>

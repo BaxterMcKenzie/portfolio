@@ -19,8 +19,8 @@ const Header = () => {
       </a>
       <div className='nav-links'>
         <NavLink to="/" activeclassname="active">Home</NavLink>
-        <NavLink to="/web" activeclassname="active">Web</NavLink>
-        <NavLink to="/design" activeclassname="active">Design</NavLink>
+        <NavLink to="/web" activeclassname="active">Web/UX</NavLink>
+        <NavLink to="/design" activeclassname="active">Visual Design</NavLink>
         <NavLink to="/illustration" activeclassname="active">Illustration</NavLink>
         {/* <NavLink to="/personal" activeclassname="active">Personal</NavLink> */}
         <NavLink to="/contact" activeclassname="active">Contact</NavLink>
@@ -37,8 +37,8 @@ const Header = () => {
           <div className="modal-content">
             <span className="close" onClick={closeModal}>&times;</span>
             <NavLink to="/" onClick={closeModal}>Home</NavLink>
-            <NavLink to="/web" onClick={closeModal}>Web</NavLink>
-            <NavLink to="/design" onClick={closeModal}>Design</NavLink>
+            <NavLink to="/web" onClick={closeModal}>Web/UX</NavLink>
+            <NavLink to="/design" onClick={closeModal}>Visual Design</NavLink>
             <NavLink to="/illustration" onClick={closeModal}>Illustration</NavLink>
             {/* <NavLink to="/personal" onClick={closeModal}>Personal</NavLink> */}
             <NavLink to="/contact" onClick={closeModal}>Contact</NavLink>
