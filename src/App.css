@@ -1031,7 +1031,7 @@ a {
 /* Media Queries */
 
 
-@media (max-width: 1300px) {
+@media (max-width: 1400px) {
   .project-details-main-img-description {
     grid-template-columns: 1fr; /* Stack columns on smaller screens */
   }
