@@ -18,6 +18,42 @@
     ]
   },
   {
+    "id": "artie-fartie",
+    "project": "Artie Fartie",
+    "cover_art": "/img/web/artie-fartie-phone.webp",
+    "description": "This project showcases a collaborative craft marketplace built with React, featuring a responsive front-end and secure back-end integration.<p></p>The site allows users to browse, filter, and purchase handcrafted items while supporting multiple user roles such as buyers, sellers, and admins.<p></p>Key functionalities include smooth navigation with React Router, data handling with Axios, and optimized state management.<p></p>The back-end, built with Express and MongoDB, manages authentication, secure file uploads via Cloudinary, and data validation to ensure reliability.<p></p>The interface is styled using Sass, with responsive layouts powered by Vite.",
+    "about": "Yoobee WEB UI/UX 2024",
+    "role": "Front-end, Back-end Developer and Collaborator",
+    "tools": "React, React Router, Sass, Vite, Axios, Express, MongoDB, Mongoose, Cloudinary, JWT, Photoshop. Coordinated tasks using Trello, collaborated on design prototypes in Figma, and managed version control with GitHub.",
+    "site_link": "https://artie-fartie-frontend.vercel.app/",
+    "git_repo": "https://github.com/BaxterMcKenzie/artie-fartie",
+    "mockups": [
+      "/img/web/artie-fartie-iphone-ipad-pc.webp",
+      "/img/web/artie-fartie-phone.webp",
+      "/img/web/artie-fartie-thumbnail.webp",
+      "/img/web/artie-fartie-duel-phone.webp",
+      "/img/web/artie-fartie-ipad.webp",
+      "/img/web/artie-fartie-pc.webp"
+    ]
+  },
+  {
+    "id": "north-island-stays",
+    "project": "North Island Stays",
+    "cover_art": "/img/web/north-island-stays-desktop-mobile.webp",
+    "description": "This project is an accommodation booking platform that provides users with a seamless way to find, filter, and book properties across multiple locations.<p></p>The site integrates a dynamic search feature, real-time map visualization using Mapbox, and interactive forms with input validation.<p></p>Users can filter properties based on location, type, guest capacity, and other amenities, while sort functions help with price comparisons.<p></p>Fullpage.js powers smooth navigation across different sections, enhancing the overall user experience.",
+    "about": "Yoobee WEB UI/UX 2024",
+    "role": "Full-Stack Developer",
+    "tools": "JavaScript, jQuery, Mapbox, Fullpage.js, Gulp, Sass, GitHub",
+    "site_link": "https://housing-app-beryl.vercel.app/",
+    "git_repo": "https://github.com/BaxterMcKenzie/Housing-App",
+    "mockups": [
+      "/img/web/north-island-stays-multi-phone.webp",
+      "/img/web/north-island-stays-laptop.webp",
+      "/img/web/north-island-stays-desktop-multi.webp",
+      "/img/web/north-island-stays-tablet-vert.webp"
+    ]
+  },
+  {
     "id": "my-favourite-albums",
     "project": "My Favourite Albums",
     "cover_art": "/img/web/my_favourite_albums.webp",
@@ -65,42 +101,6 @@
       "/img/web/dicks-decks-tablet.webp",
       "/img/web/dicks-decks-phone.webp",
       "/img/web/dicks-decks-laptop.webp"
-    ]
-  },
-  {
-    "id": "artie-fartie",
-    "project": "Artie Fartie",
-    "cover_art": "/img/web/artie-fartie-phone.webp",
-    "description": "This project showcases a collaborative craft marketplace built with React, featuring a responsive front-end and secure back-end integration.<p></p>The site allows users to browse, filter, and purchase handcrafted items while supporting multiple user roles such as buyers, sellers, and admins.<p></p>Key functionalities include smooth navigation with React Router, data handling with Axios, and optimized state management.<p></p>The back-end, built with Express and MongoDB, manages authentication, secure file uploads via Cloudinary, and data validation to ensure reliability.<p></p>The interface is styled using Sass, with responsive layouts powered by Vite.",
-    "about": "Yoobee WEB UI/UX 2024",
-    "role": "Front-end, Back-end Developer and Collaborator",
-    "tools": "React, React Router, Sass, Vite, Axios, Express, MongoDB, Mongoose, Cloudinary, JWT, Photoshop. Coordinated tasks using Trello, collaborated on design prototypes in Figma, and managed version control with GitHub.",
-    "site_link": "https://artie-fartie-frontend.vercel.app/",
-    "git_repo": "https://github.com/BaxterMcKenzie/artie-fartie",
-    "mockups": [
-      "/img/web/artie-fartie-iphone-ipad-pc.webp",
-      "/img/web/artie-fartie-phone.webp",
-      "/img/web/artie-fartie-thumbnail.webp",
-      "/img/web/artie-fartie-duel-phone.webp",
-      "/img/web/artie-fartie-ipad.webp",
-      "/img/web/artie-fartie-pc.webp"
-    ]
-  },
-  {
-    "id": "north-island-stays",
-    "project": "North Island Stays",
-    "cover_art": "/img/web/north-island-stays-desktop-mobile.webp",
-    "description": "This project is an accommodation booking platform that provides users with a seamless way to find, filter, and book properties across multiple locations.<p></p>The site integrates a dynamic search feature, real-time map visualization using Mapbox, and interactive forms with input validation.<p></p>Users can filter properties based on location, type, guest capacity, and other amenities, while sort functions help with price comparisons.<p></p>Fullpage.js powers smooth navigation across different sections, enhancing the overall user experience.",
-    "about": "Yoobee WEB UI/UX 2024",
-    "role": "Full-Stack Developer",
-    "tools": "JavaScript, jQuery, Mapbox, Fullpage.js, Gulp, Sass, GitHub",
-    "site_link": "https://housing-app-beryl.vercel.app/",
-    "git_repo": "https://github.com/BaxterMcKenzie/Housing-App",
-    "mockups": [
-      "/img/web/north-island-stays-multi-phone.webp",
-      "/img/web/north-island-stays-laptop.webp",
-      "/img/web/north-island-stays-desktop-multi.webp",
-      "/img/web/north-island-stays-tablet-vert.webp"
     ]
   }
 ]

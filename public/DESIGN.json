@@ -66,6 +66,29 @@
     ]
   },
   {
+    "id": "wedding",
+    "project": "Wedding",
+    "cover_art": "/img/design/wedding-invite.webp",
+    "description": "For our wedding, my partner and I collaborated on designing the invitation, welcome board, and QR code cards.<p></p>The invitation set the tone for our celebration, reflecting our personal style and the joy of the occasion.<p></p>The welcome board greeted guests upon arrival, simply directing them upstairs to the venue.<p></p>One of the highlights was the QR code cards, which I designed to encourage guests to capture and share their moments from the wedding.<p></p>The QR code allowed guests to easily upload their photos to a shared album, making it a fun and interactive way to collect memories from our special day.<p></p>This project was not only a labor of love but also a great way to showcase our creativity and teamwork as a couple.<p></p>I later built a custom website to display all those amazing memories in one place. The site features a responsive, masonry-style gallery that dynamically loads images via JSON, allowing us to showcase our guests' candid moments in a clean, engaging way. This was a great opportunity to bring together my love of design and web development into one meaningful project.",
+    "role": "Designer",
+    "tools": "CorelDraw,Photoshop, React, React Masonry CSS & JSON",
+    "site_link": "https://wedding-five-sigma.vercel.app/",
+    "mockups": [
+      "/img/design/wedding-photo-card.webp",
+      "/img/design/wedding-sign.webp",
+      "/img/design/wed-board.webp",
+      "/img/design/wedding-invite.webp",
+      "/img/design/wed-invite.webp",
+      "/img/design/pc-wed.webp",
+      "/img/design/pc-wed-2.webp",
+      "/img/design/lap-phone-wed.webp",
+      "/img/design/wed-ipad-landscape.webp",
+      "/img/design/wed-ipad-modal.webp",
+      "/img/design/wed-ipad-portrait.webp",
+      "/img/design/wed-modal-ipad.webp"
+    ]
+  },
+  {
     "id": "brazen-designs",
     "project": "Brazen Designs",
     "cover_art": "/img/design/joe-1.webp",
@@ -108,22 +131,6 @@
     "mockups10": [
       "/img/design/manawa-tahi-1.webp",
       "/img/design/manawa-tahi-2.webp"
-    ]
-  },
-  {
-    "id": "wedding",
-    "project": "Wedding",
-    "cover_art": "/img/design/wedding-invite.webp",
-    "description": "For our wedding, my partner and I collaborated on designing the invitation, welcome board, and QR code cards.<p></p>The invitation set the tone for our celebration, reflecting our personal style and the joy of the occasion.<p></p>The welcome board greeted guests upon arrival, simply directing them upstairs to the venue.<p></p>One of the highlights was the QR code cards, which I designed to encourage guests to capture and share their moments from the wedding.<p></p>The QR code allowed guests to easily upload their photos to a shared album, making it a fun and interactive way to collect memories from our special day.<p></p>This project was not only a labor of love but also a great way to showcase our creativity and teamwork as a couple.<p></p>I later built a custom website to display all those amazing memories in one place. The site features a responsive, masonry-style gallery that dynamically loads images via JSON, allowing us to showcase our guests' candid moments in a clean, engaging way. This was a great opportunity to bring together my love of design and web development into one meaningful project.",
-    "role": "Designer",
-    "tools": "CorelDraw,Photoshop, React, React Masonry CSS & JSON",
-    "site_link": "https://wedding-five-sigma.vercel.app/",
-    "mockups": [
-      "/img/design/wedding-photo-card.webp",
-      "/img/design/wedding-sign.webp",
-      "/img/design/wed-board.webp",
-      "/img/design/wedding-invite.webp",
-      "/img/design/wed-invite.webp"
     ]
   },
   {
@@ -174,16 +181,19 @@
     ]
   },
   {
-    "id": "business-card",
-    "project": "Business Cards",
+    "id": "small-projects",
+    "project": "Small Projects",
     "cover_art": "/img/design/finn-business-card.webp",
-    "description": "This collection features a variety of small business card designs for different clients.<p></p>I've created personalized business cards that represent each brand's identity and services, from a minimalistic photographer card for Fionnbharr Sherry to a design showcasing in-house eyebrow tattooing for Rachel of EUNOIA Cosmetic Tattoos.<p></p>Each design aims to make a lasting first impression and reflect the client's unique style and business focus.",
+    "description": "A selection of small various projects that highlight different design needs and styles, including business cards and other one-off pieces.",
     "about": "Freelance Graphic Design",
     "role": "Designer",
     "tools": "CorelDraw",
     "mockups": [
       "/img/design/rachel-business-card.webp",
-      "/img/design/finn-business-card.webp"
+      "/img/design/finn-business-card.webp",
+      "/img/design/nana-poster-mock-up.webp",
+      "/img/design/nana-bingo-card-mock-up.webp",
+      "/img/design/nana-bingo-2.webp"
     ]
   }
 ]
