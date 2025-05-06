@@ -338,7 +338,7 @@ a {
   height: 12px;
   background-color: black;
   border-radius: 50%;
-  animation: bounce 2s infinite ease-in-out;
+  animation: bounce 3s infinite ease-in-out;
   opacity: 0.8;
 }
 
@@ -1078,7 +1078,7 @@ a {
 /* Media Queries */
 
 
-@media (max-width: 1400px) {
+@media (max-width: 1200px) {
   .project-details-main-img-description {
     grid-template-columns: 1fr; /* Stack columns on smaller screens */
   }

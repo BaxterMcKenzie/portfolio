@@ -9,6 +9,12 @@ const HomeGallery = () => {
     {
       file: "DESIGN.json",
       type: "design",
+      id: "poster-design",
+      cardBackground: "/home-img/gallery-card-design.webp",
+    },
+    {
+      file: "DESIGN.json",
+      type: "design",
       id: "wedding",
       cardBackground: "/home-img/gallery-card-design.webp",
     },
@@ -17,7 +23,10 @@ const HomeGallery = () => {
       type: "illustration",
       id: "one-off-commissions",
     },
-    { file: "WEB.json", type: "web", id: "tipu-garden-management" },
+    { file: "WEB.json", 
+      type: "web", 
+      id: "tipu-garden-management" 
+    },
   ];
 
   // Define background images for each type

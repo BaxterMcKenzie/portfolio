@@ -1,5 +1,52 @@
 [
   {
+    "id": "poster-design",
+    "project": "Poster Design",
+    "cover_art": "/img/design/sun-peonies-2.webp",
+    "description": "This poster collection showcases a variety of design experiments I’ve created over time, each exploring a different theme or visual approach.<p></p>From vibrant floral compositions to nostalgic PlayStation tributes, classic car posters, and hand-drawn illustrations, each piece represents a chance to play with color, typography, and layout.<p></p>These projects were often self-initiated and served as creative outlets to test new techniques, refine my aesthetic, or just have fun pushing pixels around.<p></p>Below are some highlights from this evolving and diverse series.",
+    "role": "Designer & Illustrator",
+    "tools": "Illustrator, Photoshop & CorelDraw",
+    "mockups": [
+      "/img/design/hondax1.webp",
+      "/img/design/hondax2.webp",
+      "/img/design/honda-2.webp",
+      "/img/design/honda-black-zoom.webp",
+      "/img/design/honda-white-zoom.webp",
+      "/img/design/peoniesblack1.webp",
+      "/img/design/peoniesblack2.webp",
+      "/img/design/peonieswhite2.webp",
+      "/img/design/peonieswhite1.webp",
+      "/img/design/penonies-white.webp",
+      "/img/design/peonies-1.webp",
+      "/img/design/peonies-black.webp",
+      "/img/design/peonies-2.webp",
+      "/img/design/sunflower-mock-1.webp",
+      "/img/design/sunflower-mock-2.webp",
+      "/img/design/sunflower-mock-3.webp",
+      "/img/design/sunflower-1.webp",
+      "/img/design/sunflower-2.webp",
+      "/img/design/sun-peonies-1.webp",
+      "/img/design/sun-peonies-2.webp",
+      "/img/design/ps1-mock-1.webp",
+      "/img/design/ps1-mock-2.webp",
+      "/img/design/ps1-mock-3.webp",
+      "/img/design/ps1-2.webp",
+      "/img/design/ps1-mock.webp",
+      "/img/design/ps2-mock-1.webp",
+      "/img/design/ps2-mock-2.webp",
+      "/img/design/ps2-mock-3.webp",
+      "/img/design/ps1-ps2-mock.webp",
+      "/img/design/ps2-2.webp",
+      "/img/design/ps2-square.webp",
+      "/img/design/letters-1.webp",
+      "/img/design/letters-2.webp",
+      "/img/design/letters-mock.webp",
+      "/img/design/lil-guy-1.webp",
+      "/img/design/lil-guy-2.webp",
+      "/img/design/lil-guy-mock.webp"
+    ]
+  },
+  {
     "id": "daily-beer-can",
     "project": "Daily Beer Can",
     "cover_art": "/img/personal/all-thumbnail.webp",
@@ -41,28 +88,6 @@
       "/img/personal/karate-kid-2.webp",
       "/img/personal/midsommar.webp",
       "/img/personal/dead.webp"
-    ]
-  },
-  {
-    "id": "kinetic",
-    "project": "Kinetic",
-    "cover_art": "/img/design/kinetic-thumbnail.webp",
-    "description": "<strong>Client Flyer:</strong> Kinetic Recruitment sought to create a vibrant flyer for their employees to distribute to clients.<p></p>They aimed for a design that was engaging and energetic, departing from conventional, dull flyers.<p></p>After exploring several concepts, we collectively decided on two standout designs that struck the perfect balance between eye-catching visuals and a corporate aesthetic.",
-    "about": "Freelance Graphic Design",
-    "role": "Designer",
-    "tools": "CorelDraw & Photoshop",
-    "mockups": ["/img/design/kinetic-1.webp", "/img/design/kinetic-2.webp"],
-    "description2": "<strong>Client Testimonial:</strong> At Kinetic, the emphasis is on fostering a friendly, hardworking team dedicated to helping people find employment.<p></p>They requested a playful yet easily readable design that would align with their existing brand colors.<p></p>To facilitate sharing on social media, we designed a square template that allows for easy updates.<p></p>We created multiple template variations to ensure a fresh and dynamic presentation without becoming repetitive.",
-    "mockups2": [
-      "/img/design/kinetic-mock.webp",
-      "/img/design/kinetic-4.webp",
-      "/img/design/kinetic-5.webp",
-      "/img/design/kinetic-6.webp"
-    ],
-    "description3": "<strong>Pink Ribbon Breakfast:</strong> In support of Pink Ribbon Month, Kinetic Recruitment organized a delightful event where they distributed boxes of cupcakes to clients.<p></p>They envisioned a design that was not only fun and vibrant, reflecting the pink theme, but also communicated a powerful message about the impact of breast cancer on countless individuals in New Zealand.<p></p>The design effectively captured the essence of this important cause while maintaining an inviting and cheerful atmosphere.",
-    "mockups3": [
-      "/img/design/pink-ribbon.webp",
-      "/img/design/kinetic-cup-cake.webp"
     ]
   },
   {
@@ -149,6 +174,44 @@
     ]
   },
   {
+    "id": "kinetic",
+    "project": "Kinetic",
+    "cover_art": "/img/design/kinetic-thumbnail.webp",
+    "description": "<strong>Client Flyer:</strong> Kinetic Recruitment sought to create a vibrant flyer for their employees to distribute to clients.<p></p>They aimed for a design that was engaging and energetic, departing from conventional, dull flyers.<p></p>After exploring several concepts, we collectively decided on two standout designs that struck the perfect balance between eye-catching visuals and a corporate aesthetic.",
+    "about": "Freelance Graphic Design",
+    "role": "Designer",
+    "tools": "CorelDraw & Photoshop",
+    "mockups": ["/img/design/kinetic-1.webp", "/img/design/kinetic-2.webp"],
+    "description2": "<strong>Client Testimonial:</strong> At Kinetic, the emphasis is on fostering a friendly, hardworking team dedicated to helping people find employment.<p></p>They requested a playful yet easily readable design that would align with their existing brand colors.<p></p>To facilitate sharing on social media, we designed a square template that allows for easy updates.<p></p>We created multiple template variations to ensure a fresh and dynamic presentation without becoming repetitive.",
+    "mockups2": [
+      "/img/design/kinetic-mock.webp",
+      "/img/design/kinetic-4.webp",
+      "/img/design/kinetic-5.webp",
+      "/img/design/kinetic-6.webp"
+    ],
+    "description3": "<strong>Pink Ribbon Breakfast:</strong> In support of Pink Ribbon Month, Kinetic Recruitment organized a delightful event where they distributed boxes of cupcakes to clients.<p></p>They envisioned a design that was not only fun and vibrant, reflecting the pink theme, but also communicated a powerful message about the impact of breast cancer on countless individuals in New Zealand.<p></p>The design effectively captured the essence of this important cause while maintaining an inviting and cheerful atmosphere.",
+    "mockups3": [
+      "/img/design/pink-ribbon.webp",
+      "/img/design/kinetic-cup-cake.webp"
+    ]
+  },
+  {
+    "id": "small-projects",
+    "project": "Small Projects",
+    "cover_art": "/img/design/finn-business-card.webp",
+    "description": "A selection of small various projects that highlight different design needs and styles, including business cards and other one-off pieces.",
+    "about": "Freelance Graphic Design",
+    "role": "Designer",
+    "tools": "CorelDraw",
+    "mockups": [
+      "/img/design/rachel-business-card.webp",
+      "/img/design/finn-business-card.webp",
+      "/img/design/nana-poster-mock-up.webp",
+      "/img/design/nana-bingo-card-mock-up.webp",
+      "/img/design/nana-bingo-2.webp"
+    ]
+  },
+  {
     "id": "one-off-bits",
     "project": "One Off Bits",
     "cover_art": "/img/personal/gdi2.webp",
@@ -178,22 +241,6 @@
       "/img/personal/wario.webp",
       "/img/personal/wolverine.webp",
       "/img/personal/bewk-club.webp"
-    ]
-  },
-  {
-    "id": "small-projects",
-    "project": "Small Projects",
-    "cover_art": "/img/design/finn-business-card.webp",
-    "description": "A selection of small various projects that highlight different design needs and styles, including business cards and other one-off pieces.",
-    "about": "Freelance Graphic Design",
-    "role": "Designer",
-    "tools": "CorelDraw",
-    "mockups": [
-      "/img/design/rachel-business-card.webp",
-      "/img/design/finn-business-card.webp",
-      "/img/design/nana-poster-mock-up.webp",
-      "/img/design/nana-bingo-card-mock-up.webp",
-      "/img/design/nana-bingo-2.webp"
     ]
   }
 ]
