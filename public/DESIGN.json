@@ -1,5 +1,32 @@
 [
   {
+    "id": "bewk-club-design",
+    "project": "Bewk Club",
+    "cover_art": "/img/design/storefront-bewks-club.webp",
+    "description": "Bewk Club is a fictional café brand built around the idea of community, creativity, and caffeine. It invites groups to gather over coffee and dive into their latest book club reads together.<p></p>This branding project includes a full visual identity and a suite of supporting collateral—from business cards and letterheads to signage and storefront mockups.<p></p>I also created a range of merchandise to bring the brand to life: hoodies, tees, tote bags, and bookmarks—all designed to feel cosy, modern, and bookish.<p></p>This concept was self-initiated as a way to explore brand storytelling through design, with a focus on creating a welcoming and cohesive visual experience.",
+    "role": "Designer & Illustrator",
+    "tools": "Illustrator, Photoshop & CorelDraw",
+    "mockups": [
+      "/img/design/bewk-club-style-tile-1.webp",
+      "/img/design/singage.webp",
+      "/img/design/storefront-bewks-club.webp",
+      "/img/design/bewkclubletterhead.webp",
+      "/img/design/business-card.webp",
+      "/img/design/Multiple-Business-Cards-Mockup.webp",
+      "/img/design/bewk-club-invitation.webp",
+      "/img/design/black-tote.webp",
+      "/img/design/white-tote.webp",
+      "/img/design/bewk-club-tee.webp",
+      "/img/design/bewk-club-hood.webp",
+      "/img/design/bewk-mark-mock-1.webp",
+      "/img/design/bewk-mark-mock-2.webp",
+      "/img/design/bewk-mark-mock-3.webp",
+      "/img/design/bewk-mark-mock-4.webp",
+      "/img/design/all-bewk-marks.webp",
+      "/img/design/all-bewk-marks-2.webp"
+    ]
+  },
+  {
     "id": "poster-design",
     "project": "Poster Design",
     "cover_art": "/img/design/sun-peonies-2.webp",
