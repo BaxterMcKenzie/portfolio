@@ -27,6 +27,44 @@
     ]
   },
   {
+    "id": "poster-design-4",
+    "project": "poster-design-4",
+    "cover_art": "/img/design/blossom-3-garden.webp",
+    "description": "This series celebrates my love for flowers and the fun of turning them into artwork.<p></p>I really enjoy experimenting with colour, lighting and composition, and flowers are the perfect subject for creating calm, detailed, and visually rich pieces.<p></p>The blossom posters are part of a small series I built around soft tones and gentle layouts. The pohutukawa design has a stamp like feel to it, which made it a fun one to explore and refine.<p></p>These posters are simple personal projects that let me play, experiment, and create something peaceful to look at.",
+    "role": "Designer & Photographer",
+    "tools": "Photoshop & Illustrator",
+    "mockups": [
+      "/img/design/blossom-3-garden.webp",
+      "/img/design/blossom-3-indoors.webp",
+      "/img/design/cherry-blossoms-insta.webp",
+      "/img/design/peach-blossom-insta.webp",
+      "/img/design/plum-blossom-insta.webp",
+      "/img/design/pohutukawa-mock-frame.webp",
+      "/img/design/pohutukawa-frame-mock-2.webp",
+      "/img/design/pohutukawa-mock.webp",
+      "/img/design/fern-frame.webp",
+      "/img/design/hydrangea-mock.webp"
+    ]
+  },
+  {
+    "id": "poster-design-3",
+    "project": "Poster Design PART 3",
+    "cover_art": "/img/design/nike-both.webp",
+    "description": "This mini series celebrates a couple of pop culture favourites: sneakers and cars.<p></p>Each poster was a chance to experiment with lighting, colour and clean composition, turning everyday icons into bold, display ready artwork.<p></p>These designs were self initiated and created simply for fun, giving me space to explore different styles and push ideas a little further.<p></p>Below are a few highlights from the series.",
+    "role": "Designer & Illustrator",
+    "tools": "Illustrator, Photoshop & CorelDraw",
+    "mockups": [
+      "/img/design/stuss-1.webp",
+      "/img/design/mon-1.webp",
+      "/img/design/stuss-3.webp",
+      "/img/design/mon-3.webp",
+      "/img/design/nike-both.webp",
+      "/img/design/evo-concrete-frame.webp",
+      "/img/design/evo-light-frame.webp",
+      "/img/design/evo-poster-insta.webp"
+    ]
+  },
+  {
     "id": "poster-design-2",
     "project": "Poster Design PART 2",
     "cover_art": "/img/design/tamagotchi-x3.webp",

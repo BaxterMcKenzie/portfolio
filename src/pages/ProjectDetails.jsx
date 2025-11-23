@@ -7,7 +7,7 @@ const ProjectDetails = () => {
   const [project, setProject] = React.useState(null);
   const [loading, setLoading] = React.useState(true);
   const [isModalOpen, setIsModalOpen] = React.useState(false);
-  const [selectedImage, setSelectedImage] = React.useState(null);
+  const [selectedMedia, setSelectedMedia] = React.useState(null);
 
   React.useEffect(() => {
     let jsonFile;
@@ -29,8 +29,6 @@ const ProjectDetails = () => {
         return;
     }
 
-    console.log("Fetching data from:", jsonFile); // Debugging log
-
     fetch(jsonFile)
       .then((response) => {
         if (!response.ok) {
@@ -39,9 +37,7 @@ const ProjectDetails = () => {
         return response.json();
       })
       .then((data) => {
-        console.log("Fetched data:", data); // Debugging log
         const foundProject = data.find((proj) => proj.id === projectId);
-        console.log("Found project:", foundProject); // Debugging log
         setProject(foundProject);
         setLoading(false);
       })
@@ -54,16 +50,17 @@ const ProjectDetails = () => {
   if (loading) return <div>Loading...</div>;
   if (!project) return <div>Project not found.</div>;
 
-  const openModal = (image) => {
-    setSelectedImage(image);
+  const openModal = (media) => {
+    setSelectedMedia(media);
     setIsModalOpen(true);
   };
 
   const closeModal = () => {
     setIsModalOpen(false);
-    setSelectedImage(null);
+    setSelectedMedia(null);
   };
 
+  // Reusable section renderer (supports images + videos)
   const renderSection = (description, mockups, key) => {
     if (!description && (!mockups || mockups.length === 0)) return null;
 
@@ -83,27 +80,48 @@ const ProjectDetails = () => {
             </div>
           </div>
         )}
+
         {mockups && mockups.length > 0 && (
           <div className={`mockup-container ${isAlphabetArt ? "grid-3" : ""}`}>
-            {mockups.map((mockup, index) => (
-              <img
-                key={index}
-                src={mockup}
-                alt={`Mockup ${index + 1}`}
-                onClick={() => openModal(mockup)}
-                style={{ cursor: "pointer" }}
-              />
-            ))}
+            {mockups.map((mockup, index) => {
+              const isVideo = mockup.endsWith(".mp4");
+
+              return isVideo ? (
+                <video
+                  key={index}
+                  src={mockup}
+                  muted
+                  playsInline
+                  className="mockup-video"
+                  onMouseEnter={(e) => e.target.play()}
+                  onMouseLeave={(e) => {
+                    e.target.pause();
+                    e.target.currentTime = 0;
+                  }}
+                  onClick={() => openModal(mockup)}
+                />
+              ) : (
+                <img
+                  key={index}
+                  src={mockup}
+                  alt={`Mockup ${index + 1}`}
+                  onClick={() => openModal(mockup)}
+                  style={{ cursor: "pointer" }}
+                  loading="lazy"
+                />
+              );
+            })}
           </div>
         )}
       </div>
     );
   };
 
+  // Year sections (image + video support)
   const renderYearSection = (year, displayImage, key) => {
     if (!year && (!displayImage || displayImage.length === 0)) return null;
 
-    const isInktober = projectId === "inktober"; // Check if it's Inktober
+    const isInktober = projectId === "inktober";
 
     return (
       <div
@@ -111,17 +129,32 @@ const ProjectDetails = () => {
         key={key}
       >
         <h2>{year}</h2>
+
         {displayImage && displayImage.length > 0 && (
           <div className={`mockup-container ${isInktober ? "grid-3" : ""}`}>
-            {displayImage.map((image, index) => (
-              <img
-                key={index}
-                src={image}
-                alt={`Image ${index + 1}`}
-                onClick={() => openModal(image)}
-                style={{ cursor: "pointer" }}
-              />
-            ))}
+            {displayImage.map((image, index) => {
+              const isVideo = image.endsWith(".mp4");
+
+              return isVideo ? (
+                <video
+                  key={index}
+                  src={image}
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  className="mockup-video"
+                />
+              ) : (
+                <img
+                  key={index}
+                  src={image}
+                  alt={`Image ${index + 1}`}
+                  onClick={() => openModal(image)}
+                  style={{ cursor: "pointer" }}
+                />
+              );
+            })}
           </div>
         )}
       </div>
@@ -131,6 +164,7 @@ const ProjectDetails = () => {
   return (
     <div className="project-details-container">
       <ProjectDetailsHeader title={project.project} />
+
       <div className="project-details-main-img-description">
         <img
           className="project-main-img"
@@ -151,6 +185,7 @@ const ProjectDetails = () => {
             <strong>Tools:</strong> {project.tools}
           </p>
           <br />
+
           <div className="button-holder">
             {project.site_link && (
               <a
@@ -194,13 +229,13 @@ const ProjectDetails = () => {
       {renderSection(project.description9, project.mockups9, "section9")}
       {renderSection(project.description10, project.mockups10, "section10")}
 
-      {/* Conditional Year Sections */}
       {renderYearSection(project.year2, project.displayImage2, "year-section2")}
       {renderYearSection(project.year3, project.displayImage3, "year-section3")}
       {renderYearSection(project.year4, project.displayImage4, "year-section4")}
       {renderYearSection(project.year5, project.displayImage5, "year-section5")}
       {renderYearSection(project.year6, project.displayImage6, "year-section6")}
 
+      {/* Modal with video + image support */}
       {isModalOpen && (
         <div className="modal" onClick={closeModal}>
           <div className="modal-content">
@@ -213,7 +248,18 @@ const ProjectDetails = () => {
             >
               &times;
             </button>
-            <img src={selectedImage} alt="Full view" />
+
+            {selectedMedia.endsWith(".mp4") ? (
+              <video
+                src={selectedMedia}
+                controls
+                autoPlay
+                loop
+                className="modal-video"
+              />
+            ) : (
+              <img src={selectedMedia} alt="Full view" />
+            )}
           </div>
         </div>
       )}
