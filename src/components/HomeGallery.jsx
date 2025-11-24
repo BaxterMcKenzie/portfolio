@@ -15,7 +15,7 @@ const HomeGallery = () => {
     {
       file: "DESIGN.json",
       type: "design",
-      id: "poster-design-2",
+      id: "poster-design-4",
       cardBackground: "/home-img/gallery-card-design.webp",
     },
     {
@@ -32,9 +32,9 @@ const HomeGallery = () => {
       type: "web", 
       id: "artie-fartie" 
     },
-    { file: "WEB.json", 
-      type: "web", 
-      id: "dicks-decks" 
+    { file: "ILLUSTRATION.json", 
+      type: "illustration", 
+      id: "inktober-2025" 
     }
   ];
 
