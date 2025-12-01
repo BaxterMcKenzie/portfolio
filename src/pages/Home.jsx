@@ -24,27 +24,31 @@ const Home = () => {
         <div className="about-home">
           <h2>Kia Ora!</h2>
           <p>
-            I’m a graphic designer with 7 years of experience, blending my love
-            for typography, illustration, and web design. Inspired by video
-            games, film, and music, I craft visually engaging experiences that
-            merge creativity with function.
+            I’m a graphic designer with seven years of experience working across
+            branding, illustration, apparel graphics and print. I like creating
+            work that feels clean, thoughtful and well crafted, and I enjoy the
+            mix of creativity and problem solving that comes with every project.
             <br />
             <br />
-            Recently, I dove into web UI/UX, expanding my skills from frontend
-            to backend—a journey that’s fueled my passion for problem-solving
-            and design. I thrive on asking the right questions, understanding
-            client needs, and exploring creative solutions through mockups and
-            iteration.
+            My background is mainly in graphic design, but I’ve also expanded
+            into web UI and UX, along with front end and some backend
+            development. I’m front end focused and enjoy turning ideas into
+            clear, easy to use interfaces, but I also like understanding the
+            full process and how everything fits together behind the scenes.
             <br />
             <br />
-            Whether in an agency or in-house, I’m eager to bring my skills in
-            graphic design and front-end development to a collaborative team. I
-            work across digital and print, using tools like Photoshop,
-            Illustrator, InDesign, Procreate, and coding languages like HTML,
-            CSS, JavaScript, and React.
+            I enjoy collaborating, bouncing ideas around and finding the best
+            solution as a team. I work across digital and print using tools like
+            Photoshop, Illustrator, InDesign, Procreate, Figma, HTML, CSS,
+            JavaScript and React.
             <br />
             <br />
-            Always keen to chat—get in touch!
+            Outside of work I’m pretty relaxed. I love video games, movies,
+            music and cooking, and all of that keeps me inspired and influences
+            how I think about design and storytelling.
+            <br />
+            <br />
+            Always keen to chat, so feel free to get in touch!
           </p>
         </div>
         <HomeGallery />
