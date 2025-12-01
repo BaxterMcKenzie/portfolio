@@ -1,9 +1,29 @@
 [
   {
+    "id": "keene-krib",
+    "project": "Keene Krib",
+    "cover_art": "/img/web/all-devices-keene-krib.webp",
+    "description": "This project involved rebuilding an older Joomla website into a completely custom React application.<p></p>I designed and coded every component from scratch, including flexible layouts, responsive UI patterns, and structured JavaScript logic to handle interactive elements across the site.<p></p>A key part of the build was developing fully custom services pages — each with its own layout, galleries, dropdown sections, and tailored content to clearly explain the work Keene Krib provides.<p></p>I also created custom vector icons, implemented a clean gallery system, and integrated EmailJS for streamlined form submissions. The entire site is lightweight, fast, and designed to feel modern while remaining easy for users to navigate on any device.",
+    "about": "Updating an old Joomla site into a fresh custom React build.",
+    "role": "Front-End Developer",
+    "tools": "React, CSS, EmailJS, Photoshop, Illustrator",
+    "site_link": "https://keenekrib.co.nz/",
+    "git_repo": "https://github.com/BaxterMcKenzie/keene-krib",
+    "mockups": [
+      "/img/web/monitor-mock-home.webp",
+      "/img/web/monitor-mock-services.webp",
+      "/img/web/monitor-mock-ourwork.webp",
+      "/img/web/ipad-contact.webp",
+      "/img/web/ipad-micropiles-service.webp",
+      "/img/web/mobile-our-work.webp",
+      "/img/web/mobile-pole-wall.webp"
+    ]
+  },
+  {
     "id": "tipu-garden-management",
     "project": "Tipu Garden",
     "cover_art": "/img/web/iphone-ipad-pc-tipu.webp",
-      "description": "This project is a responsive gardening company website for Tipu Garden Management, designed to showcase their services, past projects, and customer reviews.<p></p>The frontend was built using React with a custom design, while the backend is powered by WordPress for content management.<p></p>The site incorporates custom templates created with PHP, enabling dynamic and tailored content presentation.<p></p>Key functionalities include SEO optimization using Yoast SEO, e-commerce integration with WooCommerce, and custom forms for user inquiries through Contact Form 7.<p></p>Secure Custom Fields and ACF to REST API were implemented for advanced data handling, while All-in-One Migration facilitated seamless deployment.",
+    "description": "This project is a responsive gardening company website for Tipu Garden Management, designed to showcase their services, past projects, and customer reviews.<p></p>The frontend was built using React with a custom design, while the backend is powered by WordPress for content management.<p></p>The site incorporates custom templates created with PHP, enabling dynamic and tailored content presentation.<p></p>Key functionalities include SEO optimization using Yoast SEO, e-commerce integration with WooCommerce, and custom forms for user inquiries through Contact Form 7.<p></p>Secure Custom Fields and ACF to REST API were implemented for advanced data handling, while All-in-One Migration facilitated seamless deployment.",
     "about": "Yoobee WEB UI/UX 2024",
     "role": "Full-Stack Developer",
     "tools": "React, WordPress, PHP, Vite, Yoast SEO, WooCommerce, Contact Form 7, CPT UI, Secure Custom Fields, ACF to REST API, All-in-One Migration",

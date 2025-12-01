@@ -26,11 +26,11 @@ const HomeGallery = () => {
     },
     { file: "WEB.json", 
       type: "web", 
-      id: "tipu-garden-management" 
+      id: "keene-krib" 
     },
     { file: "WEB.json", 
       type: "web", 
-      id: "artie-fartie" 
+      id: "tipu-garden-management" 
     },
     { file: "ILLUSTRATION.json", 
       type: "illustration", 

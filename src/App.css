@@ -914,10 +914,10 @@ a {
 
 /* Modal */
 
+/* Modal Background */
 .modal {
   position: fixed;
-  top: 0;
-  left: 0;
+  inset: 0;
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.9);
@@ -928,30 +928,68 @@ a {
   cursor: pointer;
 }
 
+/* Modal Inner */
 .modal-content {
   width: 100%;
   height: 100%;
+  max-width: 90%;
+  max-height: 90%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
+  cursor: default;
 }
 
+/* Image */
 .modal-content img {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
 }
 
+/* Close Button */
 .modal-close-button {
-  color: #333;
   position: absolute;
-  padding-bottom: 1px;
   top: 20px;
   right: 20px;
-  border: black 2px solid;
-  border-radius: 50px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 2px solid black;
+  border-radius: 50%;
+  background-image: url(/home-img/button.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+
+  color: #333;
+  cursor: pointer;
+  transition: ease-in 0.5s;
+}
+
+/* Hover State */
+.modal-close-button:hover {
+  background-image: url(/home-img/button-invert.webp);
+  color: #ffffff;
+}
+
+.modal-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 2px solid black;
   background-image: url(/home-img/button.webp);
   background-size: cover;
   background-position: center;
@@ -959,18 +997,29 @@ a {
   font-family: "DM Sans", sans-serif;
   font-size: 2rem;
   font-weight: 600;
+  color: #333;
   cursor: pointer;
-  height: 40px;
-  width: 40px;
-  transition: ease-in 0.5s;
+  transition: ease-in 0.4s;
+
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 1100;
 }
 
-.modal-close-button:hover {
+.modal-arrow:hover {
   background-image: url(/home-img/button-invert.webp);
-  color: #ffffff;
+  color: white;
+}
+
+/* Left arrow position */
+.modal-arrow.left {
+  left: 20px;
+}
+
+/* Right arrow position */
+.modal-arrow.right {
+  right: 20px;
 }
 
 
@@ -1392,6 +1441,12 @@ a {
     height: 100%;
   }
 }
+
+ .modal-arrow {
+    height: 30px;
+    width: 30px;
+    font-size: 1.5rem;
+  }
 
 }
 

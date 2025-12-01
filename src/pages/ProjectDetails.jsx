@@ -6,8 +6,12 @@ const ProjectDetails = () => {
   const { projectId, type } = useParams();
   const [project, setProject] = React.useState(null);
   const [loading, setLoading] = React.useState(true);
+
+  // MODAL STATES
   const [isModalOpen, setIsModalOpen] = React.useState(false);
   const [selectedMedia, setSelectedMedia] = React.useState(null);
+  const [selectedIndex, setSelectedIndex] = React.useState(null);
+  const [selectedArray, setSelectedArray] = React.useState(null); // <-- IMPORTANT
 
   React.useEffect(() => {
     let jsonFile;
@@ -31,9 +35,7 @@ const ProjectDetails = () => {
 
     fetch(jsonFile)
       .then((response) => {
-        if (!response.ok) {
-          throw new Error("Network response was not ok");
-        }
+        if (!response.ok) throw new Error("Network response was not ok");
         return response.json();
       })
       .then((data) => {
@@ -42,7 +44,7 @@ const ProjectDetails = () => {
         setLoading(false);
       })
       .catch((error) => {
-        console.error("Error fetching the project data:", error);
+        console.error("Error fetching project data:", error);
         setLoading(false);
       });
   }, [projectId, type]);
@@ -50,17 +52,41 @@ const ProjectDetails = () => {
   if (loading) return <div>Loading...</div>;
   if (!project) return <div>Project not found.</div>;
 
-  const openModal = (media) => {
+  // OPEN MODAL WITH ARRAY + INDEX
+  const openModal = (media, index, array) => {
     setSelectedMedia(media);
+    setSelectedIndex(index);
+    setSelectedArray(array); // <-- store array
     setIsModalOpen(true);
   };
 
   const closeModal = () => {
     setIsModalOpen(false);
     setSelectedMedia(null);
+    setSelectedIndex(null);
+    setSelectedArray(null);
   };
 
-  // Reusable section renderer (supports images + videos)
+  // NEXT + PREV NOW USE THE CORRECT ARRAY
+  const handleNext = () => {
+    if (!selectedArray) return;
+
+    const newIndex = (selectedIndex + 1) % selectedArray.length;
+    setSelectedIndex(newIndex);
+    setSelectedMedia(selectedArray[newIndex]);
+  };
+
+  const handlePrev = () => {
+    if (!selectedArray) return;
+
+    const newIndex =
+      (selectedIndex - 1 + selectedArray.length) % selectedArray.length;
+
+    setSelectedIndex(newIndex);
+    setSelectedMedia(selectedArray[newIndex]);
+  };
+
+  // UNIVERSAL SECTION RENDERER
   const renderSection = (description, mockups, key) => {
     if (!description && (!mockups || mockups.length === 0)) return null;
 
@@ -75,7 +101,7 @@ const ProjectDetails = () => {
           <div className="project-multi-container-background">
             <div className="project-multi-container">
               <div className="project-description-multi">
-                <p dangerouslySetInnerHTML={{ __html: description }}></p>
+                <p dangerousSetInnerHTML={{ __html: description }}></p>
               </div>
             </div>
           </div>
@@ -98,14 +124,15 @@ const ProjectDetails = () => {
                     e.target.pause();
                     e.target.currentTime = 0;
                   }}
-                  onClick={() => openModal(mockup)}
+                  // Pass the ARRAY!
+                  onClick={() => openModal(mockup, index, mockups)}
                 />
               ) : (
                 <img
                   key={index}
                   src={mockup}
                   alt={`Mockup ${index + 1}`}
-                  onClick={() => openModal(mockup)}
+                  onClick={() => openModal(mockup, index, mockups)} // <-- FIX
                   style={{ cursor: "pointer" }}
                   loading="lazy"
                 />
@@ -117,7 +144,7 @@ const ProjectDetails = () => {
     );
   };
 
-  // Year sections (image + video support)
+  // YEAR SECTIONS (INKTOBER ETC.)
   const renderYearSection = (year, displayImage, key) => {
     if (!year && (!displayImage || displayImage.length === 0)) return null;
 
@@ -150,7 +177,7 @@ const ProjectDetails = () => {
                   key={index}
                   src={image}
                   alt={`Image ${index + 1}`}
-                  onClick={() => openModal(image)}
+                  onClick={() => openModal(image, index, displayImage)} // <-- FIX
                   style={{ cursor: "pointer" }}
                 />
               );
@@ -165,12 +192,14 @@ const ProjectDetails = () => {
     <div className="project-details-container">
       <ProjectDetailsHeader title={project.project} />
 
+      {/* HEADER SECTION */}
       <div className="project-details-main-img-description">
         <img
           className="project-main-img"
           src={project.cover_art}
           alt={project.project}
         />
+
         <div className="project-description">
           <h2>Project Details //</h2>
           <br />
@@ -178,75 +207,67 @@ const ProjectDetails = () => {
           <br />
           <p dangerouslySetInnerHTML={{ __html: project.description }} />
           <br />
+
           <p className="role-tools">
             <strong>Role:</strong> {project.role}
           </p>
           <p className="role-tools">
             <strong>Tools:</strong> {project.tools}
           </p>
-          <br />
 
+          <br />
           <div className="button-holder">
             {project.site_link && (
-              <a
-                href={project.site_link}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href={project.site_link} target="_blank">
                 Visit Site
               </a>
             )}
             {project.git_repo && (
-              <a
-                href={project.git_repo}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href={project.git_repo} target="_blank">
                 Git Repo
               </a>
             )}
             {project.git_repo2 && (
-              <a
-                href={project.git_repo2}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Backend Git Repo
+              <a href={project.git_repo2} target="_blank">
+                Backend Repo
               </a>
             )}
           </div>
         </div>
       </div>
 
-      {renderSection(null, project.mockups, "main-mockups")}
-      {renderSection(project.description2, project.mockups2, "section2")}
-      {renderSection(project.description3, project.mockups3, "section3")}
-      {renderSection(project.description4, project.mockups4, "section4")}
-      {renderSection(project.description5, project.mockups5, "section5")}
-      {renderSection(project.description6, project.mockups6, "section6")}
-      {renderSection(project.description7, project.mockups7, "section7")}
-      {renderSection(project.description8, project.mockups8, "section8")}
-      {renderSection(project.description9, project.mockups9, "section9")}
-      {renderSection(project.description10, project.mockups10, "section10")}
+      {/* MAIN MOCKUP SECTIONS */}
+      {renderSection(null, project.mockups, "main")}
+      {renderSection(project.description2, project.mockups2, "sec2")}
+      {renderSection(project.description3, project.mockups3, "sec3")}
+      {renderSection(project.description4, project.mockups4, "sec4")}
+      {renderSection(project.description5, project.mockups5, "sec5")}
+      {renderSection(project.description6, project.mockups6, "sec6")}
+      {renderSection(project.description7, project.mockups7, "sec7")}
+      {renderSection(project.description8, project.mockups8, "sec8")}
+      {renderSection(project.description9, project.mockups9, "sec9")}
+      {renderSection(project.description10, project.mockups10, "sec10")}
 
-      {renderYearSection(project.year2, project.displayImage2, "year-section2")}
-      {renderYearSection(project.year3, project.displayImage3, "year-section3")}
-      {renderYearSection(project.year4, project.displayImage4, "year-section4")}
-      {renderYearSection(project.year5, project.displayImage5, "year-section5")}
-      {renderYearSection(project.year6, project.displayImage6, "year-section6")}
+      {/* YEAR SECTIONS */}
+      {renderYearSection(project.year2, project.displayImage2, "year2")}
+      {renderYearSection(project.year3, project.displayImage3, "year3")}
+      {renderYearSection(project.year4, project.displayImage4, "year4")}
+      {renderYearSection(project.year5, project.displayImage5, "year5")}
+      {renderYearSection(project.year6, project.displayImage6, "year6")}
 
-      {/* Modal with video + image support */}
+      {/* MODAL */}
       {isModalOpen && (
         <div className="modal" onClick={closeModal}>
-          <div className="modal-content">
-            <button
-              className="modal-close-button"
-              onClick={(e) => {
-                e.stopPropagation();
-                closeModal();
-              }}
-            >
+          <div
+            className="modal-content"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button className="modal-close-button" onClick={closeModal}>
               &times;
+            </button>
+
+            <button className="modal-arrow left" onClick={handlePrev}>
+              ‹
             </button>
 
             {selectedMedia.endsWith(".mp4") ? (
@@ -260,6 +281,10 @@ const ProjectDetails = () => {
             ) : (
               <img src={selectedMedia} alt="Full view" />
             )}
+
+            <button className="modal-arrow right" onClick={handleNext}>
+              ›
+            </button>
           </div>
         </div>
       )}
