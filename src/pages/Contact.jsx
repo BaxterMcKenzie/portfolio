@@ -4,29 +4,32 @@ import PageHeader from "../components/PageHeader";
 const Contact = () => {
   return (
     <>
-      <PageHeader title="Contact" image_url="/home-img/title-banner-personal.webp" />
+      <PageHeader
+        title="Contact"
+        image_url="/home-img/title-banner-personal.webp"
+      />
       <div className="home">
         <div className="about-body-container">
           <div className="about-background-image"></div>
           <div className="about">
             <p>
-              I’m a graphic designer with 7 years of experience, driven by a
-              passion for typography and illustration. Earlier this year, I took
-              the leap into upskilling in web UI/UX, and it’s been an incredible
-              journey! Designing websites, experimenting with typography, and
-              weaving in color has allowed me to merge my creative background
-              with structured design seamlessly.
+              I’m a graphic designer with eight years of industry experience,
+              with a strong focus on typography, illustration and visual
+              storytelling. I enjoy working across branding, print and digital,
+              and I care a lot about detail, consistency and craft in everything
+              I make.
               <br />
               <br />
-              While I initially focused on frontend development, I’ve discovered
-              a new appreciation for backend work—it’s been an exciting
-              challenge that pushes me to problem-solve and expand my skill set
-              even further.
+              Alongside my graphic design background, I’ve upskilled in web UI
+              and UX, with a front end focus and a growing understanding of
+              backend development. I enjoy the problem solving side of web
+              design, and finding the balance between creative ideas and clear,
+              functional solutions.
               <br />
               <br />
-              If you’re looking for someone who can bring creative and technical
-              expertise to your next project, I’d love to hear from you! Get in
-              touch below, and let’s create something amazing together.
+              If you’re looking for someone who can bring both creative and
+              technical thinking to your next project, I’d love to hear from
+              you. Get in touch below and let’s make something great together.
               <br />
               <br />
             </p>
