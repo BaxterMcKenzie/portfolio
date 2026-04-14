@@ -1,5 +1,42 @@
 [
   {
+    "id": "ghost-guys-design",
+    "project": "Ghost Guys",
+    "cover_art": "/img/design/gg-shop-front.webp",
+    "description": "Ghost Guys is a fictional brand that blends humour with a slightly eerie edge, built around a cast of rubber hose-style ghost characters. The concept plays in that space between playful and mysterious, giving the brand a unique and memorable personality.<p></p>This project explores a full visual identity system, extending across a wide range of real-world applications. From business cards and appointment cards to storefront signage and vehicle wraps, the goal was to create a cohesive brand that could exist convincingly in the real world.<p></p>I designed a variety of branded collateral and merchandise including posters, stickers, enamel pins, packaging, and a product box. Each piece helping to build out the universe of the brand and reinforce its character-driven identity.<p></p>This was a self-initiated project focused on pushing illustration and branding together, using expressive character design and bold, graphic visuals to create something that feels both fun and slightly offbeat.",
+    "role": "Designer & Illustrator",
+    "tools": "Illustrator & Photoshop",
+    "mockups": [
+      "/img/design/gg-style-tile-1.webp",
+      "/img/design/gg-style-tile-2.webp",
+
+      "/img/design/gg-shop-front.webp",
+      "/img/design/gg-singage.webp",
+      "/img/design/GG-street-pole-mockup.webp",
+      "/img/design/GG-flyer-2.webp",
+
+      "/img/design/gg-van-mock-side.webp",
+      "/img/design/gg-car-front-side.webp",
+      "/img/design/gg-car-back-side.webp",
+
+      "/img/design/gg-business-card.webp",
+      "/img/design/gg-appointment-card.webp",
+
+      "/img/design/box-close-mock.webp",
+      "/img/design/box-open-mock.webp",
+      "/img/design/inside-and-cover-1.webp",
+      "/img/design/outside-1.webp",
+
+      "/img/design/gg-stickers.webp",
+      "/img/design/gg-pins.webp",
+
+      "/img/design/ghost-guys-cap-front.webp",
+      "/img/design/ghost-guys-cap-side.webp",
+      "/img/design/ghost-guys-tote-black.webp",
+      "/img/design/ghost-guys-tote-bone.webp"
+    ]
+  },
+  {
     "id": "bewk-club-design",
     "project": "Bewk Club",
     "cover_art": "/img/design/storefront-bewks-club.webp",
@@ -26,7 +63,7 @@
       "/img/design/all-bewk-marks-2.webp"
     ]
   },
-    {
+  {
     "id": "daily-beer-can",
     "project": "Daily Beer Can",
     "cover_art": "/img/personal/all-thumbnail.webp",

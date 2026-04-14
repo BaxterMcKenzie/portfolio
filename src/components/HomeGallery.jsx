@@ -9,6 +9,12 @@ const HomeGallery = () => {
     {
       file: "DESIGN.json",
       type: "design",
+      id: "ghost-guys-design",
+      cardBackground: "/home-img/gallery-card-design.webp",
+    },
+        {
+      file: "DESIGN.json",
+      type: "design",
       id: "bewk-club-design",
       cardBackground: "/home-img/gallery-card-design.webp",
     },
@@ -27,10 +33,6 @@ const HomeGallery = () => {
     { file: "WEB.json", 
       type: "web", 
       id: "keene-krib" 
-    },
-    { file: "WEB.json", 
-      type: "web", 
-      id: "tipu-garden-management" 
     },
     { file: "ILLUSTRATION.json", 
       type: "illustration", 
