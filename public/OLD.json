@@ -1,0 +1,71 @@
+ [ {
+    "id": "small-projects",
+    "project": "Small Projects",
+    "cover_art": "/img/design/finn-business-card.webp",
+    "description": "A selection of small various projects that highlight different design needs and styles, including business cards and other one-off pieces.",
+    "about": "Freelance Graphic Design",
+    "role": "Designer",
+    "tools": "CorelDraw",
+    "mockups": [
+      "/img/design/rachel-business-card.webp",
+      "/img/design/finn-business-card.webp",
+      "/img/design/nana-poster-mock-up.webp",
+      "/img/design/nana-bingo-card-mock-up.webp",
+      "/img/design/nana-bingo-2.webp"
+    ]
+  },
+  {
+    "id": "kinetic",
+    "project": "Kinetic",
+    "cover_art": "/img/design/kinetic-thumbnail.webp",
+    "description": "<strong>Client Flyer:</strong> Kinetic Recruitment sought to create a vibrant flyer for their employees to distribute to clients.<p></p>They aimed for a design that was engaging and energetic, departing from conventional, dull flyers.<p></p>After exploring several concepts, we collectively decided on two standout designs that struck the perfect balance between eye-catching visuals and a corporate aesthetic.",
+    "about": "Freelance Graphic Design",
+    "role": "Designer",
+    "tools": "CorelDraw & Photoshop",
+    "mockups": ["/img/design/kinetic-1.webp", "/img/design/kinetic-2.webp"],
+    "description2": "<strong>Client Testimonial:</strong> At Kinetic, the emphasis is on fostering a friendly, hardworking team dedicated to helping people find employment.<p></p>They requested a playful yet easily readable design that would align with their existing brand colors.<p></p>To facilitate sharing on social media, we designed a square template that allows for easy updates.<p></p>We created multiple template variations to ensure a fresh and dynamic presentation without becoming repetitive.",
+    "mockups2": [
+      "/img/design/kinetic-mock.webp",
+      "/img/design/kinetic-4.webp",
+      "/img/design/kinetic-5.webp",
+      "/img/design/kinetic-6.webp"
+    ],
+    "description3": "<strong>Pink Ribbon Breakfast:</strong> In support of Pink Ribbon Month, Kinetic Recruitment organized a delightful event where they distributed boxes of cupcakes to clients.<p></p>They envisioned a design that was not only fun and vibrant, reflecting the pink theme, but also communicated a powerful message about the impact of breast cancer on countless individuals in New Zealand.<p></p>The design effectively captured the essence of this important cause while maintaining an inviting and cheerful atmosphere.",
+    "mockups3": [
+      "/img/design/pink-ribbon.webp",
+      "/img/design/kinetic-cup-cake.webp"
+    ]
+  },
+  {
+    "id": "one-off-bits",
+    "project": "One Off Bits",
+    "cover_art": "/img/personal/gdi2.webp",
+    "description": "This collection features a variety of one-off pieces that don't have a dedicated category but still deserve a spotlight.<p></p>It's a blend of illustration and design, showcasing creativity, experimentation, and versatility.<p></p>Each piece brings something unique to the table, highlighting different styles and approaches that stand out on their own.",
+    "role": "Designer & Illustrator",
+    "tools": "Illustrator, Photoshop,CorelDraw & Procreate",
+    "mockups": [
+      "/img/personal/letters.webp",
+      "/img/personal/no-slow.webp",
+      "/img/personal/animals.webp",
+      "/img/personal/book-club.webp",
+      "/img/personal/face-punch.webp",
+      "/img/personal/fwog.webp",
+      "/img/personal/good-vibes-1.webp",
+      "/img/personal/heyo.webp",
+      "/img/personal/karate-guy.webp",
+      "/img/personal/ski-guy.webp",
+      "/img/personal/line-blend.webp",
+      "/img/personal/lover-diggers.webp",
+      "/img/personal/mlady.webp",
+      "/img/personal/rotating-letters.webp",
+      "/img/personal/sonic-knuckles.webp",
+      "/img/personal/squishy.webp",
+      "/img/personal/takeaway.webp",
+      "/img/personal/tombi.webp",
+      "/img/personal/trunks.webp",
+      "/img/personal/wario.webp",
+      "/img/personal/wolverine.webp",
+      "/img/personal/bewk-club.webp"
+    ]
+  }
+ ]
