@@ -21,7 +21,7 @@ const HomeGallery = () => {
     {
       file: "DESIGN.json",
       type: "design",
-      id: "poster-design-2",
+      id: "posters-2025",
       cardBackground: "/home-img/gallery-card-design.webp",
     },
     {
