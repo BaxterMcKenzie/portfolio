@@ -25,7 +25,7 @@ const Home = () => {
           <h2>Heyo!</h2>
           <br />
           <p>
-            Hey, I’m Baxter! I’m a multidisciplinary Graphic Designer based in
+            I’m Baxter! I’m a multidisciplinary Graphic Designer based in
             Aotearoa New Zealand with over eight years of industry experience
             across branding, apparel graphics, illustration, print, and digital
             design.
