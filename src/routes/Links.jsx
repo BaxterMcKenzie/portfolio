@@ -16,7 +16,7 @@ const Links = () => {
       <Route path="/design" element={<Design />} />
       <Route path="/illustration" element={<Illustration />} />
       <Route path="/personal" element={<Personal />} />
-      <Route path="/contact" element={<Contact />} />
+      <Route path="/about" element={<Contact />} />
 
       <Route path="/projects/:type/:projectId" element={<ProjectDetails />} />
     </Routes>

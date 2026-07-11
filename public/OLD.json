@@ -1,4 +1,5 @@
- [ {
+[
+  {
     "id": "small-projects",
     "project": "Small Projects",
     "cover_art": "/img/design/finn-business-card.webp",
@@ -67,5 +68,71 @@
       "/img/personal/wolverine.webp",
       "/img/personal/bewk-club.webp"
     ]
+  },
+  {
+    "id": "clothing-design",
+    "project": "Clothing Design",
+    "cover_art": "/img/design/sunflower-thumbnail.webp",
+    "description": "A collection of garment graphics I’ve designed for screen printing and embroidery. These range from simple one-colour spot prints through to full CMYK process artwork, depending on the look and feel needed for each piece.<p></p>My focus is always on creating strong, wearable graphics that translate well onto fabric. Considering scale, placement, ink interaction, and how the artwork will actually be produced.<p></p>I also design for small-scale embroidery, simplifying and refining artwork so it holds detail and clarity when stitched. Each piece reflects my background in print production as well as my love for illustration and bold graphic design.<p></p>This project will continue to grow as I add more examples of apparel graphics and production-ready artwork.",
+    "role": "Designer & Illustrator",
+    "tools": "Illustrator, Photoshop & CorelDraw",
+    "mockups": [
+      "/img/design/honda-tee-mock.webp",
+      "/img/design/honda-tee-photo.webp",
+      "/img/design/honda-tee-photo-2.webp",
+      "/img/design/hats.webp",
+      "/img/design/sunflower-full.webp",
+      "/img/design/sunflower-2.webp",
+      "/img/design/sunflower-emb.webp",
+      "/img/design/raccoon-black-close.webp",
+      "/img/design/raccoon-black-close-2.webp",
+      "/img/design/raccoon-white-close-2.webp",
+      "/img/design/raccoon-white-full.webp"
+    ]
+  },
+  {
+    "id": "brazen-designs",
+    "project": "Brazen Designs",
+    "cover_art": "/img/design/joe-1.webp",
+    "description": "At Brazen Clothing, I have been working as a graphic designer for over 7 years, specializing in creating garment designs for screen printing and embroidery.<p></p>My role involves collaborating with clients via email and phone to transform their ideas into high-quality designs, working with spot colors, and meeting tight deadlines.<p></p>I also coordinate with screen printers and embroiderers to ensure every project is completed on time and to the highest standard.<p></p>This dynamic role allows me to balance creativity with technical precision, contributing to the success of custom apparel projects.<p></p>Below are a few of my favorite designs.",
+    "about": "Freelance Graphic Design",
+    "role": "Designer",
+    "tools": "CorelDraw & Photoshop",
+    "description2": "<strong>Wel Lift Crew:</strong> Wel Lift Crew is a gym/streetwear apparel company.<p></p>The client wanted that classic faded 90s style, inspired by old-school basketball and sports t-shirts.<p></p>They provided a few reference images to guide the design process.<p></p>This project was particularly enjoyable for me, as I have a deep appreciation for that design style.<p></p>It also provided a valuable opportunity to work across several different design programs.<p></p>Both the client and I were thrilled with the final result.",
+    "mockups2": ["/img/design/joe-1.webp", "/img/design/joe-2.webp"],
+    "description3": "<strong>Signal: </strong>Signal is a cyber security company that approached Brazen with a request for something 'nerdy' in design.<p></p>I’d call myself a nerd, but this was a different kind of nerdy.<p></p>The first design features a ball representing global security, with binary code spelling out 'Signal.'<p></p>The second design symbolizes their ability to secure cloud storage, with rain made of binary code illustrating their tagline, 'Taking on the World from NZ.'<p></p>Although the client initially wanted just one design, they were so pleased with both that they decided to print them both.",
+    "mockups3": [
+      "/img/design/signal-1.webp",
+      "/img/design/signal-2.webp",
+      "/img/design/signal-4.webp",
+      "/img/design/signal-3.webp"
+    ],
+    "description4": "<strong>Aoraki: </strong>One day, the client came to me with a photo of a crane he had taken and asked if we could print it.<p></p>I took on the challenge of redrawing the photo into a printable vector file.<p></p>After five hours of work, this was the final result.<p></p>The design turned out so well that it became the standard print for Aoraki.",
+    "mockups4": ["/img/design/aoraki-1.webp", "/img/design/aoraki-2.webp"],
+    "description5": "<strong>Gipsy Kitchen: </strong>Gipsy Kitchen is a fantastic client to work with.<p></p>They have a signature Gipsy character, and every time they need a new design, they simply ask for 'Gipsy plus pop culture reference.'<p></p>This particular design was 'Gipsy plus Motorhead,' which was a lot of fun to create.<p></p>It was a great lesson in matching the tones of two distinct styles and merging them into one cohesive graphic.",
+    "mockups5": ["/img/design/gipsy-2.webp", "/img/design/gipsy-3.webp"],
+    "description6": "<strong>Mauri Construction: </strong>Mauri Construction came to me with a simple yet meaningful idea—starting a building company named after his Blue Heeler dog.<p></p>I chose a bold, straight-edge font to convey strength and solidity, which felt fitting for a building company.<p></p>We experimented with a few dog designs, and this one became our favorite: a dog with a hammer in its mouth, which perfectly captures the essence of a Kiwi builder.",
+    "mockups6": ["/img/design/mauri-1.webp", "/img/design/mauri-2.webp"],
+    "description7": "<strong>F45 Gym: </strong>F45 Gym is a regular client, as they host multiple competitions each year.<p></p>Typically, they send me a few ideas—such as animals and color schemes—and I take it from there, creating designs that align with their vision.<p></p>These are some of my favorite designs I've created for them, each one reflecting the energy and spirit of their competitions.",
+    "mockups7": [
+      "/img/design/f45-1.webp",
+      "/img/design/f45-2.webp",
+      "/img/design/f45-4.webp",
+      "/img/design/f45-3.webp",
+      "/img/design/f45-5.webp",
+      "/img/design/f45-6.webp"
+    ],
+    "description8": "<strong>Fades & Sexy Babes: </strong>Crispy Fades & Sexy Babes came to Brazen looking for something different from the typical barber logo.<p></p>They provided a few reference images, and together we came up with a unique design that stood out from the crowd.<p></p>The client was extremely happy with the final result, and it perfectly captured their bold and distinctive brand identity.",
+    "mockups8": ["/img/design/crispy-1.webp", "/img/design/crispy-2.webp"],
+    "description9": "<strong>Little Sprig: </strong>Little Sprig Seatoun wanted to refresh their shirts with a new design, specifically focusing on the back of the shirt.<p></p>They asked if I could incorporate something that represented Seatoun.<p></p>We decided on the iconic little island just off Seatoun, as it's easily recognizable and makes for a striking design on the back of the shirt.",
+    "mockups9": [
+      "/img/design/lil-sprig-1.webp",
+      "/img/design/lil-sprig-3.webp"
+    ],
+    "description10": "<strong>Manawa Tahi: </strong>Manawa Tahi, which translates to 'One Heart' in Māori, is a slow pitch team that wanted a design reflecting the sport, teamwork, and togetherness.<p></p>The brief was clear and straightforward, with few changes needed throughout the process.<p></p>The design came together seamlessly, and both the client and the team were thrilled with the final result, perfectly capturing the spirit of unity and camaraderie.",
+    "mockups10": [
+      "/img/design/manawa-tahi-1.webp",
+      "/img/design/manawa-tahi-2.webp"
+    ]
   }
- ]
+]

@@ -23,7 +23,7 @@ const Header = () => {
         <NavLink to="/design" activeclassname="active">Visual Design</NavLink>
         <NavLink to="/illustration" activeclassname="active">Illustration</NavLink>
         {/* <NavLink to="/personal" activeclassname="active">Personal</NavLink> */}
-        <NavLink to="/contact" activeclassname="active">Contact</NavLink>
+        <NavLink to="/about" activeclassname="active">About</NavLink>
       </div>
       <div className="hamburger" onClick={openModal}>
         <div className="line"></div>
@@ -41,7 +41,7 @@ const Header = () => {
             <NavLink to="/design" onClick={closeModal}>Visual Design</NavLink>
             <NavLink to="/illustration" onClick={closeModal}>Illustration</NavLink>
             {/* <NavLink to="/personal" onClick={closeModal}>Personal</NavLink> */}
-            <NavLink to="/contact" onClick={closeModal}>Contact</NavLink>
+            <NavLink to="/about" onClick={closeModal}>About</NavLink>
           </div>
         </div>
       )}

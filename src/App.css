@@ -315,7 +315,48 @@ a {
   left: 50%;
   transform: translateX(-50%);
   z-index: 10;
-  pointer-events: none;
+
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+
+  transition: transform 0.25s ease, opacity 0.25s ease;
+}
+
+.scroll-indicator {
+  animation: float 2.5s ease-in-out infinite;
+}
+
+.scroll-indicator:hover {
+  transform: translateX(-50%) translateY(4px);
+  opacity: 0.8;
+}
+
+.scroll-indicator:focus-visible {
+  outline: 2px solid #333;
+  outline-offset: 8px;
+  border-radius: 20px;
+}
+
+.scroll-indicator:active {
+  transform: translateX(-50%) translateY(8px);
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateX(-50%) translateY(0);
+  }
+
+  50% {
+    transform: translateX(-50%) translateY(-8px);
+  }
+}
+
+.scroll-indicator:hover {
+  animation-play-state: paused;
+  transform: translateX(-50%) translateY(4px);
 }
 
 .tube {
@@ -1053,12 +1094,34 @@ a {
   position: relative;
   width: 50%;
   z-index: 800;
-  padding: 30px;
+  padding: 80px,80px,80px,80px;
   font-family: "DM Sans", sans-serif;
   line-height: 1.7rem;
   font-weight: 400;
   margin-left: 220px;
   text-align: left;
+   h2 {
+        font-size: 4rem;
+        margin-bottom: 2rem;
+        padding: 0;
+      }
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.social-links a {
+  font-size: 1.8rem;
+  color: #333;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.social-links a:hover {
+  color: #f04d4c;
+  transform: translateY(-3px);
 }
 
 /* Footer */

@@ -40,7 +40,7 @@ const Footer = () => {
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
           <a
-            href="https://www.instagram.com/baxter_mckenzie/"
+            href="https://www.instagram.com/baxter.design/"
             target="_blank"
             rel="noopener noreferrer"
           >
