@@ -6,6 +6,12 @@ const HomeGallery = () => {
 
   // JSON files and the specific project ID you want to highlight
   const jsonFiles = [
+        {
+      file: "DESIGN.json",
+      type: "design",
+      id: "posters-2026",
+      cardBackground: "/home-img/gallery-card-design.webp",
+    },
     {
       file: "DESIGN.json",
       type: "design",

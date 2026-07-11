@@ -1,12 +1,27 @@
 [
-    {
+  {
     "id": "posters-2026",
     "project": "POSTERS 2026",
-    "cover_art": "/img/design/puppy-love-frame-mock.webp",
+    "cover_art": "/img/design/lotus-frame-mock.webp",
     "description": "POSTERS 2026 continues my ongoing series of self initiated poster work, exploring a mix of detailed illustration, bold typography, automotive culture and more experimental visual ideas.<p></p>This collection moves between styles quite freely, from highly detailed natural subjects like the bumblebee artwork through to clean automotive inspired layouts and more abstract, texture driven concepts. Each piece gave me the chance to experiment with composition, lighting, colour and visual storytelling in different ways.<p></p>These posters are a creative outlet where I can test ideas, refine techniques, and push my design style further outside of client work. Some designs lean nostalgic and graphic, while others focus more on atmosphere, detail and mood, helping me build a broader and more versatile visual range throughout 2026.",
     "role": "Designer & Illustrator",
     "tools": "Photoshop & Illustrator",
     "mockups": [
+      "/img/design/lotus-insta.webp",
+      "/img/design/lotus-frame-mock.webp",
+
+      "/img/design/apple-green-insta.webp",
+      "/img/design/orange-blue-insta.webp",
+      "/img/design/apple-orange-colour-bg.webp",
+      "/img/design/orange-white-insta.webp",
+      "/img/design/apple-white-insta.webp",
+      "/img/design/apple-orange-white-bg.webp",
+
+      "/img/design/peachy-cream-insta.webp",
+      "/img/design/peachy-cream-frame.webp",
+      "/img/design/peachy-black-insta.webp",
+      "/img/design/peachy-black-frame.webp",
+
       "/img/design/puppy-love-mock.webp",
       "/img/design/puppy-love-frame-mock.webp",
 
@@ -31,7 +46,7 @@
       "/img/design/pill-mock-3.webp"
     ]
   },
-    {
+  {
     "id": "posters-2025",
     "project": "POSTERS 2025",
     "cover_art": "/img/design/sun-peonies-2.webp",
