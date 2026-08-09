@@ -1100,7 +1100,7 @@ a {
   position: relative;
   width: 50%;
   z-index: 800;
-  padding: 80px, 80px, 80px, 80px;
+  padding: 80px;
   font-family: "DM Sans", sans-serif;
   line-height: 1.7rem;
   font-weight: 400;
@@ -1108,7 +1108,8 @@ a {
   text-align: left;
   h2 {
     font-size: 4rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
+    line-height: 4rem;
     padding: 0;
   }
 }
