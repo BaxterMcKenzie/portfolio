@@ -17,6 +17,15 @@
       "/img/design/apple-white-insta.webp",
       "/img/design/apple-orange-white-bg.webp",
 
+      "/img/design/venom-insta.webp",
+      "/img/design/venom-frame-mockup.webp",
+      "/img/design/cherry-insta.webp",
+      "/img/design/cherry.webp",
+      "/img/design/mojojojo-pink-mock.webp",
+      "/img/design/mojojojo-pink-frame.webp",
+      "/img/design/mojojojo-purple-mock.webp",
+      "/img/design/mojojojo-purple-frame.webp",
+
       "/img/design/peachy-cream-insta.webp",
       "/img/design/peachy-cream-frame.webp",
       "/img/design/peachy-black-insta.webp",
@@ -167,6 +176,20 @@
       "/img/design/bewk-mark-mock-4.webp",
       "/img/design/all-bewk-marks.webp",
       "/img/design/all-bewk-marks-2.webp"
+    ]
+  },
+  {
+    "id": "afters-return-to-sender",
+    "project": "Afters & Return to Sender",
+    "cover_art": "/img/design/AFTERS-POST-2.webp",
+    "description": "Afters and Full Time Sender, a local club and gig promoter, reached out to have me design posters for their events featuring local DJs and artists. The brief gave me the opportunity to explore a style of design I don't usually work in, which made it a really fun project to take on.<p></p>The designs were created for both Afters and Return to Sender, with a focus on bold visuals and an energetic feel suited to the club scene. It was great to experiment with a different creative direction, push myself outside my usual comfort zone, and create something the team loved.",
+    "role": "Graphic Designer",
+    "tools": "Photoshop & Illustrator",
+    "mockups": [
+      "/img/design/AFTERS-POST-2.webp",
+      "/img/design/AFTERS-STORY-2.webp",
+      "/img/design/RTS2-FEED.webp",
+      "/img/design/RTS2-STORY.webp"
     ]
   },
   {
