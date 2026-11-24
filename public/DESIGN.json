@@ -259,6 +259,27 @@
       "/img/design/wed-modal-ipad.webp"
     ]
   },
+      {
+    "id": "clothing-design",
+    "project": "Clothing Design",
+    "cover_art": "/img/design/sunflower-thumbnail.webp",
+    "description": "A collection of garment graphics I’ve designed for screen printing and embroidery. These range from simple one-colour spot prints through to full CMYK process artwork, depending on the look and feel needed for each piece.<p></p>My focus is always on creating strong, wearable graphics that translate well onto fabric. Considering scale, placement, ink interaction, and how the artwork will actually be produced.<p></p>I also design for small-scale embroidery, simplifying and refining artwork so it holds detail and clarity when stitched. Each piece reflects my background in print production as well as my love for illustration and bold graphic design.<p></p>This project will continue to grow as I add more examples of apparel graphics and production-ready artwork.",
+    "role": "Designer & Illustrator",
+    "tools": "Illustrator, Photoshop & CorelDraw",
+    "mockups": [
+      "/img/design/honda-tee-mock.webp",
+      "/img/design/honda-tee-photo.webp",
+      "/img/design/honda-tee-photo-2.webp",
+      "/img/design/hats.webp",
+      "/img/design/sunflower-full.webp",
+      "/img/design/sunflower-2.webp",
+      "/img/design/sunflower-emb.webp",
+      "/img/design/raccoon-black-close.webp",
+      "/img/design/raccoon-black-close-2.webp",
+      "/img/design/raccoon-white-close-2.webp",
+      "/img/design/raccoon-white-full.webp"
+    ]
+  },
   {
     "id": "tipu-garden-management-design",
     "project": "Tipu Garden Management",
